@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "turtlemod",
+	"version": "${version}",
+	"name": "Turtle Mod",
+	"description": "This is a Tutorial Turtle Mod by Hoys",
+	"authors": [
+		"Happy_old_year"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT 3.0",
+	"icon": "assets/turtlemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.hoys.turtlemod.TurtleMod"
+		],
+		"fabric-datagen": [
+			"net.hoys.turtlemod.TurtleModDataGenerator"
+		],
+		"client": [
+			"net.hoys.turtlemod.TurtleModClient"
+		]
+	},
+	"mixins": [
+		"turtlemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
