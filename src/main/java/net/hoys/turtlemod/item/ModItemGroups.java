@@ -41,6 +41,15 @@ public class ModItemGroups {
                         entries.add(ModItems.CAULIFLOWER);
                     })).build());
 
+    public static final ItemGroup MISCELLANEOUS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "miscellaneous_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.WAXED_EXPOSED_CUT_COPPER_STAIRS))
+                    .displayName(Text.translatable("itemgroup.turtlemod.miscellaneous"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.COPPER_COIN);
+                        entries.add(ModItems.CHISEL);
+                    })).build());
+
 
     public static void registerItemGroups() {
         TurtleMod.LOGGER.info("Registering Item Groups for " + TurtleMod.MOD_ID);

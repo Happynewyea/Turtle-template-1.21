@@ -2,6 +2,7 @@
   "item.turtlemod.lutonium": "Lutonium",
   "item.turtlemod.raw_lutonium": "Raw Lutonium",
   "item.turtlemod.cauliflower": "Cauliflower",
+  "item.turtlemod.chisel": "Chisel",
 
 
   "block.turtlemod.lutonium_block": "Lutonium Block",
@@ -14,5 +15,6 @@
 
   "itemgroup.turtlemod.lutonium_items": "Lutonium Items",
   "itemgroup.turtlemod.lutonium_blocks": "Lutonium Blocks",
-  "itemgroup.turtlemod.custom_foods": "Custom Foods"
+  "itemgroup.turtlemod.custom_foods": "Custom Foods",
+  "itemgroup.turtlemod.miscellaneous": "Misc Items"
 }

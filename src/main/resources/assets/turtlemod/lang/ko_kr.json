@@ -2,6 +2,7 @@
   "item.turtlemod.lutonium": "루토늄",
   "item.turtlemod.raw_lutonium": "루토늄 원석",
   "item.turtlemod.cauliflower": "콜리플라워",
+  "item.turtlemod.chisel": "끌",
 
 
   "block.turtlemod.lutonium_block": "루토늄 블록",
@@ -14,5 +15,6 @@
 
   "itemgroup.turtlemod.lutonium_items": "루토늄 아이템",
   "itemgroup.turtlemod.lutonium_blocks": "루토늄 블럭",
-  "itemgroup.turtlemod.custom_foods": "커스텀 음식"
+  "itemgroup.turtlemod.custom_foods": "커스텀 음식",
+  "itemgroup.turtlemod.miscellaneous": "기타 아이템"
 }
