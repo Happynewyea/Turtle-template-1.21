@@ -1,8 +1,18 @@
 {
   "item.turtlemod.lutonium": "Lutonium",
   "item.turtlemod.raw_lutonium": "Raw Lutonium",
+  "item.turtlemod.cauliflower": "Cauliflower",
+
+
   "block.turtlemod.lutonium_block": "Lutonium Block",
   "block.turtlemod.raw_lutonium_block": "Raw Lutonium Block",
+
   "block.turtlemod.lutonium_ore": "Lutonium Ore",
-  "block.turtlemod.lutonium_deepslate_ore": "Lutonium Deepslate Ore"
+  "block.turtlemod.lutonium_deepslate_ore": "Lutonium Deepslate Ore",
+
+
+
+  "itemgroup.turtlemod.lutonium_items": "Lutonium Items",
+  "itemgroup.turtlemod.lutonium_blocks": "Lutonium Blocks",
+  "itemgroup.turtlemod.custom_foods": "Custom Foods"
 }

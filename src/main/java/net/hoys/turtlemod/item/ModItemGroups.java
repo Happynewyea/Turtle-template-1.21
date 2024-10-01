@@ -1,0 +1,49 @@
+package net.hoys.turtlemod.item;
+
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.hoys.turtlemod.TurtleMod;
+import net.hoys.turtlemod.block.ModBlocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+public class ModItemGroups {
+
+    public static final ItemGroup LUTONIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "lutonium_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LUTONIUM))
+                    .displayName(Text.translatable("itemgroup.turtlemod.lutonium_items"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.LUTONIUM);
+                        entries.add(ModItems.RAW_LUTONIUM);
+                    })).build());
+
+    public static final ItemGroup LUTONIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "lutonium_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.LUTONIUM_BLOCK))
+                    .displayName(Text.translatable("itemgroup.turtlemod.lutonium_blocks"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModBlocks.LUTONIUM_BLOCK);
+                        entries.add(ModBlocks.RAW_LUTONIUM_BLOCK);
+                        entries.add(ModBlocks.LUTONIUM_ORE);
+                        entries.add(ModBlocks.LUTONIUM_DEEPSLATE_ORE);
+                    })).build());
+
+    public static final ItemGroup CUSTOM_FOODS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "custom_foods"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.COOKED_BEEF))
+                    .displayName(Text.translatable("itemgroup.turtlemod.custom_foods"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.CAULIFLOWER);
+                    })).build());
+
+
+    public static void registerItemGroups() {
+        TurtleMod.LOGGER.info("Registering Item Groups for " + TurtleMod.MOD_ID);
+
+    }
+}
