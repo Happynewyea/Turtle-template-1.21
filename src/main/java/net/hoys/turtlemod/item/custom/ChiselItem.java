@@ -47,6 +47,8 @@ public class ChiselItem extends Item {
 
         }
 
+        // if (CHISEL_MAP.containsKey())
+
 
         return ActionResult.SUCCESS;
     }
