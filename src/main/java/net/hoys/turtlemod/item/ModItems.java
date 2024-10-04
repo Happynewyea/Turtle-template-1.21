@@ -20,6 +20,12 @@ public class ModItems {
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
     public static final Item COPPER_COIN = registerItem("copper_coin", new Item(new Item.Settings()));
 
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item RAW_NICKEL = registerItem("raw_nickel", new Item(new Item.Settings()));
+    public static final Item RAW_LEAD = registerItem("raw_lead", new Item(new Item.Settings()));
+    public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new Item.Settings()));
+    public static final Item RAW_TITANIUM = registerItem("raw_titanium", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TurtleMod.MOD_ID, name), item);
     }
@@ -31,6 +37,12 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(LUTONIUM);
             entries.add(RAW_LUTONIUM);
+
+            entries.add(RAW_TIN);
+            entries.add(RAW_NICKEL);
+            entries.add(RAW_LEAD);
+            entries.add(RAW_SILVER);
+            entries.add(RAW_TITANIUM);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {

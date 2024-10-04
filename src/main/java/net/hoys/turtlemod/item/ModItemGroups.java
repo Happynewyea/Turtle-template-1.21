@@ -20,18 +20,12 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.LUTONIUM);
                         entries.add(ModItems.RAW_LUTONIUM);
-                    })).build());
-
-    public static final ItemGroup LUTONIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TurtleMod.MOD_ID, "lutonium_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.LUTONIUM_BLOCK))
-                    .displayName(Text.translatable("itemgroup.turtlemod.lutonium_blocks"))
-                    .entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.LUTONIUM_BLOCK);
                         entries.add(ModBlocks.RAW_LUTONIUM_BLOCK);
                         entries.add(ModBlocks.LUTONIUM_ORE);
                         entries.add(ModBlocks.LUTONIUM_DEEPSLATE_ORE);
                     })).build());
+
 
     public static final ItemGroup CUSTOM_FOODS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TurtleMod.MOD_ID, "custom_foods"),
@@ -40,6 +34,20 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.CAULIFLOWER);
                     })).build());
+
+    public static final ItemGroup CUSTOM_ORES_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "custom_ores"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.DIAMOND_ORE))
+                    .displayName(Text.translatable("itemgroup.turtlemod.custom_ores"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.RAW_TIN);
+                        entries.add(ModItems.RAW_NICKEL);
+                        entries.add(ModItems.RAW_LEAD);
+                        entries.add(ModItems.RAW_SILVER);
+                        entries.add(ModItems.RAW_TITANIUM);
+                    })).build());
+
+
 
     public static final ItemGroup MISCELLANEOUS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TurtleMod.MOD_ID, "miscellaneous_items"),

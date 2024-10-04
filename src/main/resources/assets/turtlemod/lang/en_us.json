@@ -4,6 +4,13 @@
   "item.turtlemod.cauliflower": "Cauliflower",
   "item.turtlemod.chisel": "Chisel",
 
+  "item.turtlemod.raw_tin": "Raw Tin",
+  "item.turtlemod.raw_nickel": "Raw Nickel",
+  "item.turtlemod.raw_lead": "Raw Lead",
+  "item.turtlemod.raw_silver": "Raw Silver",
+  "item.turtlemod.raw_titanium": "Raw Titanium",
+
+
 
   "block.turtlemod.lutonium_block": "Lutonium Block",
   "block.turtlemod.raw_lutonium_block": "Raw Lutonium Block",
@@ -14,7 +21,7 @@
 
 
   "itemgroup.turtlemod.lutonium_items": "Lutonium Items",
-  "itemgroup.turtlemod.lutonium_blocks": "Lutonium Blocks",
   "itemgroup.turtlemod.custom_foods": "Custom Foods",
+  "itemgroup.turtlemod.custom_ores": "Custom Ores",
   "itemgroup.turtlemod.miscellaneous": "Misc Items"
 }

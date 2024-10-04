@@ -4,6 +4,13 @@
   "item.turtlemod.cauliflower": "콜리플라워",
   "item.turtlemod.chisel": "끌",
 
+  "item.turtlemod.raw_tin": "주석 원석",
+  "item.turtlemod.raw_nickel": "니켈 원석",
+  "item.turtlemod.raw_lead": "납 원석",
+  "item.turtlemod.raw_silver": "은 원석",
+  "item.turtlemod.raw_titanium": "티타늄 원석",
+
+
 
   "block.turtlemod.lutonium_block": "루토늄 블록",
   "block.turtlemod.raw_lutonium_block": "루토늄 원석 블록",
@@ -14,7 +21,7 @@
 
 
   "itemgroup.turtlemod.lutonium_items": "루토늄 아이템",
-  "itemgroup.turtlemod.lutonium_blocks": "루토늄 블럭",
   "itemgroup.turtlemod.custom_foods": "커스텀 음식",
+  "itemgroup.turtlemod.custom_ores": "커스텀 광물",
   "itemgroup.turtlemod.miscellaneous": "기타 아이템"
 }
