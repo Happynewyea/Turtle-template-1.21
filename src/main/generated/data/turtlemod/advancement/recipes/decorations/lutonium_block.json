@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lutonium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "turtlemod:lutonium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lutonium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lutonium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lutonium_block"
+    ]
+  }
+}

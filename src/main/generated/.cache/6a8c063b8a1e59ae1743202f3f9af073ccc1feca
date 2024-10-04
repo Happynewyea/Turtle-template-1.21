@@ -1,0 +1,6 @@
+// 1.21	2024-10-04T14:55:36.0185316	Turtle Mod/Block Loot Tables
+66cf21ac259784bae85a4fcdf7116b33e9ca4cff data\turtlemod\loot_table\blocks\lutonium_ore.json
+32a160c2d900b552146890e1346db6500429c33b data\turtlemod\loot_table\blocks\deepslate_lutonium_ore.json
+607ec0310329fef039eb89319d4ad2eb0cb20e20 data\turtlemod\loot_table\blocks\raw_lutonium_block.json
+ec26519ec8cea56aa3ee5b8e0c5fab893421a97f data\turtlemod\loot_table\blocks\lutonium_block.json
+6f3d6389911019aa646950b66a0cba452b9e9f88 data\turtlemod\loot_table\blocks\magic_block.json
