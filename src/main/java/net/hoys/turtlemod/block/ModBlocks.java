@@ -69,6 +69,41 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
+    public static final Block TIN_BLOCK = registerBlock("tin_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block NICKEL_BLOCK = registerBlock("nickel_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block LEAD_BLOCK = registerBlock("lead_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block RAW_NICKEL_BLOCK = registerBlock("raw_nickel_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block RAW_LEAD_BLOCK = registerBlock("raw_lead_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block RAW_TITANIUM_BLOCK = registerBlock("raw_titanium_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
+
+
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
@@ -93,6 +128,18 @@ public class ModBlocks {
             entries.add(ModBlocks.RAW_LUTONIUM_BLOCK);
             entries.add(ModBlocks.LUTONIUM_ORE);
             entries.add(ModBlocks.DEEPSLATE_LUTONIUM_ORE);
+
+            entries.add(ModBlocks.TIN_BLOCK);
+            entries.add(ModBlocks.NICKEL_BLOCK);
+            entries.add(ModBlocks.LEAD_BLOCK);
+            entries.add(ModBlocks.SILVER_BLOCK);
+            entries.add(ModBlocks.TITANIUM_BLOCK);
+
+            entries.add(ModBlocks.RAW_TIN_BLOCK);
+            entries.add(ModBlocks.RAW_NICKEL_BLOCK);
+            entries.add(ModBlocks.RAW_LEAD_BLOCK);
+            entries.add(ModBlocks.RAW_SILVER_BLOCK);
+            entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {

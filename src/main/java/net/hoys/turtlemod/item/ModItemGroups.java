@@ -67,6 +67,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
                         entries.add(ModBlocks.TITANIUM_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+
+                        entries.add(ModBlocks.TIN_BLOCK);
+                        entries.add(ModBlocks.RAW_TIN_BLOCK);
+                        entries.add(ModBlocks.NICKEL_BLOCK);
+                        entries.add(ModBlocks.RAW_NICKEL_BLOCK);
+                        entries.add(ModBlocks.LEAD_BLOCK);
+                        entries.add(ModBlocks.RAW_LEAD_BLOCK);
+                        entries.add(ModBlocks.SILVER_BLOCK);
+                        entries.add(ModBlocks.RAW_SILVER_BLOCK);
+                        entries.add(ModBlocks.TITANIUM_BLOCK);
+                        entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
                     })).build());
 
 

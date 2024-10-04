@@ -65,6 +65,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LUTONIUM, RecipeCategory.DECORATIONS, ModBlocks.LUTONIUM_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TIN_INGOT, RecipeCategory.DECORATIONS, ModBlocks.TIN_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.NICKEL_INGOT, RecipeCategory.DECORATIONS, ModBlocks.NICKEL_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LEAD_INGOT, RecipeCategory.DECORATIONS, ModBlocks.LEAD_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SILVER_INGOT, RecipeCategory.DECORATIONS, ModBlocks.SILVER_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.TITANIUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.TITANIUM_BLOCK);
+
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_LUTONIUM_BLOCK)
                 .pattern("RRR")
@@ -74,15 +81,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_LUTONIUM), conditionsFromItem(ModItems.RAW_LUTONIUM))
                 .offerTo(exporter);
 
+
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_LUTONIUM, 9)
                 .input(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_LUTONIUM_BLOCK), conditionsFromItem(ModBlocks.RAW_LUTONIUM_BLOCK))
                 .offerTo(exporter);
 
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_TIN_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_TIN)
+                .criterion(hasItem(ModItems.RAW_TIN), conditionsFromItem(ModItems.RAW_TIN))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_TIN, 9)
+                .input(ModBlocks.RAW_TIN_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_TIN_BLOCK), conditionsFromItem(ModBlocks.RAW_TIN_BLOCK))
+                .offerTo(exporter);
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_NICKEL_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_NICKEL)
+                .criterion(hasItem(ModItems.RAW_NICKEL), conditionsFromItem(ModItems.RAW_NICKEL))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_NICKEL, 9)
+                .input(ModBlocks.RAW_NICKEL_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_NICKEL_BLOCK), conditionsFromItem(ModBlocks.RAW_NICKEL_BLOCK))
+                .offerTo(exporter);
+
+
+
+
+        /*
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_LUTONIUM, 32)
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.MAGIC_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(exporter, Identifier.of(TurtleMod.MOD_ID, "raw_lutonium_from_magic_block"));
 
+        */
     }
 }

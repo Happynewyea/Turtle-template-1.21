@@ -21,6 +21,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .add(ModBlocks.LUTONIUM_ORE)
                 .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.NICKEL_ORE)
+                .add(ModBlocks.DEEPSLATE_NICKEL_ORE)
+                .add(ModBlocks.LEAD_ORE)
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE)
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE)
+                .add(ModBlocks.TITANIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE)
                 .add(ModBlocks.MAGIC_BLOCK);
 
 
@@ -28,6 +38,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LUTONIUM_BLOCK)
                 .add(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .add(ModBlocks.LUTONIUM_ORE)
-                .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE);
+                .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.NICKEL_ORE)
+                .add(ModBlocks.DEEPSLATE_NICKEL_ORE)
+                .add(ModBlocks.LEAD_ORE)
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE)
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE)
+                .add(ModBlocks.TITANIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
     }
 }

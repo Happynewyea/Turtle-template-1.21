@@ -4,6 +4,16 @@
     "turtlemod:raw_lutonium_block",
     "turtlemod:lutonium_ore",
     "turtlemod:deepslate_lutonium_ore",
+    "turtlemod:tin_ore",
+    "turtlemod:deepslate_tin_ore",
+    "turtlemod:nickel_ore",
+    "turtlemod:deepslate_nickel_ore",
+    "turtlemod:lead_ore",
+    "turtlemod:deepslate_lead_ore",
+    "turtlemod:silver_ore",
+    "turtlemod:deepslate_silver_ore",
+    "turtlemod:titanium_ore",
+    "turtlemod:deepslate_titanium_ore",
     "turtlemod:magic_block"
   ]
 }

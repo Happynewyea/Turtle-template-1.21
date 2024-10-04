@@ -39,6 +39,18 @@
   "block.turtlemod.titanium_ore": "티타늄 광석",
   "block.turtlemod.deepslate_titanium_ore": "심층암 티타늄 광석",
 
+  "block.turtlemod.tin_block": "주석 블록",
+  "block.turtlemod.raw_tin_block": "주석 원석 블록",
+  "block.turtlemod.nickel_block": "니켈 블록",
+  "block.turtlemod.raw_nickel_block": "니켈 원석 블록",
+  "block.turtlemod.lead_block": "납 블록",
+  "block.turtlemod.raw_lead_block": "납 원석 블록",
+  "block.turtlemod.silver_block": "은 블록",
+  "block.turtlemod.raw_silver_block": "은 원석 블록",
+  "block.turtlemod.titanium_block": "티타늄 블록",
+  "block.turtlemod.raw_titanium_block": "티타늄 원석 블록",
+
+
   "block.turtlemod.magic_block": "마법의 블록",
 
 
