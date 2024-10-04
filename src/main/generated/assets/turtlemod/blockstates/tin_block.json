@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "turtlemod:block/tin_block"
+    }
+  }
+}
