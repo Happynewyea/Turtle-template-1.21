@@ -10,6 +10,12 @@
   "item.turtlemod.raw_silver": "Raw Silver",
   "item.turtlemod.raw_titanium": "Raw Titanium",
 
+  "item.turtlemod.tin_ingot": "Tin Ingot",
+  "item.turtlemod.nickel_ingot": "Nickel Ingot",
+  "item.turtlemod.lead_ingot": "Lead Ingot",
+  "item.turtlemod.silver_ingot": "Silver Ingot",
+  "item.turtlemod.titanium_ingot": "Titanium Ingot",
+
 
 
   "block.turtlemod.lutonium_block": "Lutonium Block",

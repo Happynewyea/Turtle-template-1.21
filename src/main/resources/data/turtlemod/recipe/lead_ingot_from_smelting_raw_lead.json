@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "lead",
+  "ingredient": {
+    "item": "turtlemod:raw_lead"
+  },
+  "result": {
+    "id": "turtlemod:lead_ingot"
+  },
+  "experience": 2,
+  "cookingtime": 200
+}

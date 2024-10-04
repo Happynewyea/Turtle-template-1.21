@@ -26,6 +26,12 @@ public class ModItems {
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new Item.Settings()));
     public static final Item RAW_TITANIUM = registerItem("raw_titanium", new Item(new Item.Settings()));
 
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
+    public static final Item NICKEL_INGOT = registerItem("nickel_ingot", new Item(new Item.Settings()));
+    public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new Item.Settings()));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new Item.Settings()));
+    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TurtleMod.MOD_ID, name), item);
     }
@@ -43,6 +49,12 @@ public class ModItems {
             entries.add(RAW_LEAD);
             entries.add(RAW_SILVER);
             entries.add(RAW_TITANIUM);
+
+            entries.add(TIN_INGOT);
+            entries.add(NICKEL_INGOT);
+            entries.add(LEAD_INGOT);
+            entries.add(SILVER_INGOT);
+            entries.add(TITANIUM_INGOT);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {

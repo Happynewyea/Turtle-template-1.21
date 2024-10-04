@@ -10,6 +10,11 @@
   "item.turtlemod.raw_silver": "은 원석",
   "item.turtlemod.raw_titanium": "티타늄 원석",
 
+  "item.turtlemod.tin_ingot": "주석 주괴",
+  "item.turtlemod.nickel_ingot": "니켈 주괴",
+  "item.turtlemod.lead_ingot": "납 주괴",
+  "item.turtlemod.silver_ingot": "은 주괴",
+  "item.turtlemod.titanium_ingot": "티타늄 주괴",
 
 
   "block.turtlemod.lutonium_block": "루토늄 블록",

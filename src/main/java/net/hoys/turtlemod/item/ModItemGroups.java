@@ -41,10 +41,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.turtlemod.custom_ores"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TIN);
+                        entries.add(ModItems.TIN_INGOT);
                         entries.add(ModItems.RAW_NICKEL);
+                        entries.add(ModItems.NICKEL_INGOT);
                         entries.add(ModItems.RAW_LEAD);
+                        entries.add(ModItems.LEAD_INGOT);
                         entries.add(ModItems.RAW_SILVER);
+                        entries.add(ModItems.SILVER_INGOT);
                         entries.add(ModItems.RAW_TITANIUM);
+                        entries.add(ModItems.TITANIUM_INGOT);
                     })).build());
 
 
