@@ -24,6 +24,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_LUTONIUM_BLOCK);
                         entries.add(ModBlocks.LUTONIUM_ORE);
                         entries.add(ModBlocks.LUTONIUM_DEEPSLATE_ORE);
+
+                        entries.add(ModItems.LUTONIUM_HELMET);
+                        entries.add(ModItems.LUTONIUM_CHESTPLATE);
+                        entries.add(ModItems.LUTONIUM_LEGGINGS);
+                        entries.add(ModItems.LUTONIUM_BOOTS);
+
                     })).build());
 
 
@@ -61,6 +67,8 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.COPPER_COIN);
                         entries.add(ModItems.CHISEL);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     })).build());
 
 

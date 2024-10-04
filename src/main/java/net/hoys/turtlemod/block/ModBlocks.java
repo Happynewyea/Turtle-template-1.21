@@ -2,6 +2,7 @@ package net.hoys.turtlemod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hoys.turtlemod.TurtleMod;
+import net.hoys.turtlemod.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -33,6 +34,16 @@ public class ModBlocks {
     public static final Block LUTONIUM_DEEPSLATE_ORE = registerBlock("lutonium_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(40, 45),
                     AbstractBlock.Settings.create().strength(15f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
+
+
+
+
 
 
     private static Block registerBlock(String name, Block block) {

@@ -3,13 +3,22 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:iron_ingot"
+    },
+    "*": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "&": {
+      "item": "minecraft:coal"
+    },
+    "%": {
+      "item": "minecraft:cobbled_deepslate"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "***",
+    "&%&",
+    "#%#"
   ],
   "result": {
     "count": 1,
