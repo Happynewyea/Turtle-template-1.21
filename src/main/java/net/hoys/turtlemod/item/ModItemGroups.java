@@ -23,7 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LUTONIUM_BLOCK);
                         entries.add(ModBlocks.RAW_LUTONIUM_BLOCK);
                         entries.add(ModBlocks.LUTONIUM_ORE);
-                        entries.add(ModBlocks.LUTONIUM_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_LUTONIUM_ORE);
 
                         entries.add(ModItems.LUTONIUM_HELMET);
                         entries.add(ModItems.LUTONIUM_CHESTPLATE);
@@ -56,6 +56,17 @@ public class ModItemGroups {
                         entries.add(ModItems.SILVER_INGOT);
                         entries.add(ModItems.RAW_TITANIUM);
                         entries.add(ModItems.TITANIUM_INGOT);
+
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                        entries.add(ModBlocks.NICKEL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_NICKEL_ORE);
+                        entries.add(ModBlocks.LEAD_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_LEAD_ORE);
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                        entries.add(ModBlocks.TITANIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
                     })).build());
 
 

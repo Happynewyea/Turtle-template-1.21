@@ -34,7 +34,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAGIC_BLOCK);
 
         addDrop(ModBlocks.LUTONIUM_ORE, oreDrops(ModBlocks.LUTONIUM_ORE, ModItems.RAW_LUTONIUM));
-        addDrop(ModBlocks.LUTONIUM_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.LUTONIUM_DEEPSLATE_ORE, ModItems.RAW_LUTONIUM, 1, 2));
+        addDrop(ModBlocks.DEEPSLATE_LUTONIUM_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_LUTONIUM_ORE, ModItems.RAW_LUTONIUM, 1, 2));
 
 
     }

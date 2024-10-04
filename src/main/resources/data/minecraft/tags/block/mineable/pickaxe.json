@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "turtlemod:lutonium_block",
-    "turtlemod:lutonium_deepslate_ore",
-    "turtlemod:lutonium_ore",
-    "turtlemod:raw_lutonium_block"
-  ]
-}

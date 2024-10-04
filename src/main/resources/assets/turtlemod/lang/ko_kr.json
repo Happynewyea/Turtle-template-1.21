@@ -16,17 +16,34 @@
   "item.turtlemod.silver_ingot": "은 주괴",
   "item.turtlemod.titanium_ingot": "티타늄 주괴",
 
+  "item.turtlemod.lutonium_helmet": "루토늄 투구",
+  "item.turtlemod.lutonium_chestplate": "루토늄 흉갑",
+  "item.turtlemod.lutonium_leggings": "루토늄 각반",
+  "item.turtlemod.lutonium_boots": "루토늄 부츠",
+
 
   "block.turtlemod.lutonium_block": "루토늄 블록",
   "block.turtlemod.raw_lutonium_block": "루토늄 원석 블록",
 
   "block.turtlemod.lutonium_ore": "루토늄 광석",
-  "block.turtlemod.lutonium_deepslate_ore": "심층암 루토늄 광석",
+  "block.turtlemod.deepslate_lutonium_ore": "심층암 루토늄 광석",
 
+  "block.turtlemod.tin_ore": "주석 광석",
+  "block.turtlemod.deepslate_tin_ore": "심층암 주석 광석",
+  "block.turtlemod.nickel_ore": "니켈 광석",
+  "block.turtlemod.deepslate_nickel_ore": "심층암 니켈 광석",
+  "block.turtlemod.lead_ore": "납 광석",
+  "block.turtlemod.deepslate_lead_ore": "심층암 납 광석",
+  "block.turtlemod.silver_ore": "은 광석",
+  "block.turtlemod.deepslate_silver_ore": "심층암 은 광석",
+  "block.turtlemod.titanium_ore": "티타늄 광석",
+  "block.turtlemod.deepslate_titanium_ore": "심층암 티타늄 광석",
+
+  "block.turtlemod.magic_block": "마법의 블록",
 
 
   "itemgroup.turtlemod.lutonium_items": "루토늄 아이템",
   "itemgroup.turtlemod.custom_foods": "커스텀 음식",
-  "itemgroup.turtlemod.custom_ores": "커스텀 광물",
+  "itemgroup.turtlemod.custom_ores": "신규 광물",
   "itemgroup.turtlemod.miscellaneous": "기타 아이템"
 }

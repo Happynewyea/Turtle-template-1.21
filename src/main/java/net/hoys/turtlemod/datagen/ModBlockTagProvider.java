@@ -20,7 +20,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LUTONIUM_BLOCK)
                 .add(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .add(ModBlocks.LUTONIUM_ORE)
-                .add(ModBlocks.LUTONIUM_DEEPSLATE_ORE)
+                .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE)
                 .add(ModBlocks.MAGIC_BLOCK);
 
 
@@ -28,6 +28,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LUTONIUM_BLOCK)
                 .add(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .add(ModBlocks.LUTONIUM_ORE)
-                .add(ModBlocks.LUTONIUM_DEEPSLATE_ORE);
+                .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE);
     }
 }

@@ -16,14 +16,30 @@
   "item.turtlemod.silver_ingot": "Silver Ingot",
   "item.turtlemod.titanium_ingot": "Titanium Ingot",
 
+  "item.turtlemod.lutonium_helmet": "Lutonium Helmet",
+  "item.turtlemod.lutonium_chestplate": "Lutonium Chestplate",
+  "item.turtlemod.lutonium_leggings": "Lutonium Leggings",
+  "item.turtlemod.lutonium_boots": "Lutonium Boots",
 
 
   "block.turtlemod.lutonium_block": "Lutonium Block",
   "block.turtlemod.raw_lutonium_block": "Raw Lutonium Block",
 
   "block.turtlemod.lutonium_ore": "Lutonium Ore",
-  "block.turtlemod.lutonium_deepslate_ore": "Lutonium Deepslate Ore",
+  "block.turtlemod.deepslate_lutonium_ore": "Deepslate Lutonium Ore",
 
+  "block.turtlemod.tin_ore": "Tin Ore",
+  "block.turtlemod.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.turtlemod.nickel_ore": "Nickel Ore",
+  "block.turtlemod.deepslate_nickel_ore": "Deepslate Nickel Ore",
+  "block.turtlemod.lead_ore": "Lead Ore",
+  "block.turtlemod.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.turtlemod.silver_ore": "Silver Ore",
+  "block.turtlemod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.turtlemod.titanium_ore": "Titanium Ore",
+  "block.turtlemod.deepslate_titanium_ore": "Deepslate Titanium Ore",
+
+  "block.turtlemod.magic_block": "Magic Block",
 
 
   "itemgroup.turtlemod.lutonium_items": "Lutonium Items",
