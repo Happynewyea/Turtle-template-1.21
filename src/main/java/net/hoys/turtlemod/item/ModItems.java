@@ -6,6 +6,7 @@ import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupImpl;
 import net.hoys.turtlemod.TurtleMod;
 import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.item.custom.ChiselItem;
+import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -134,7 +135,7 @@ public class ModItems {
 
     public static final Item TITANIUM_SWORD = registerItem("titanium_sword",
             new SwordItem(ModToolMaterials.TITANIUM, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TITANIUM, 3, -2.2F))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TITANIUM, 3, -2.2F)) ));
     public static final Item TITANIUM_SHOVEL = registerItem("titanium_shovel",
             new ShovelItem(ModToolMaterials.TITANIUM, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.TITANIUM, 1.5F,-2.8F))));
@@ -157,19 +158,30 @@ public class ModItems {
     public static final Item LUTONIUM_HELMET = registerItem("lutonium_helmet",
             new ArmorItem(ModArmorMaterials.LUTONIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
-
     public static final Item LUTONIUM_CHESTPLATE = registerItem("lutonium_chestplate",
             new ArmorItem(ModArmorMaterials.LUTONIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
-
     public static final Item LUTONIUM_LEGGINGS = registerItem("lutonium_leggings",
             new ArmorItem(ModArmorMaterials.LUTONIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
-
     public static final Item LUTONIUM_BOOTS = registerItem("lutonium_boots",
             new ArmorItem(ModArmorMaterials.LUTONIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
+/*
+    public static final Item TIN_HELMET = registerItem("tin_helmet",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item TIN_CHESTPLATE = registerItem("tin_chestplate",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item TIN_LEGGINGS = registerItem("tin_leggings",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item TIN_BOOTS = registerItem("tin_boots",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+*/
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TurtleMod.MOD_ID, name), item);

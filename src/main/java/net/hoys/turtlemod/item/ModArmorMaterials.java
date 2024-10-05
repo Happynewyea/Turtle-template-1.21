@@ -27,7 +27,18 @@ public class ModArmorMaterials {
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.LUTONIUM),
                     List.of(new ArmorMaterial.Layer(Identifier.of(TurtleMod.MOD_ID, "lutonium"))), 0,0
             ));
-
+/*
+    public static final RegistryEntry<ArmorMaterial> TIN_ARMOR_MATERIAL = registerArmorMaterial("tin",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 1);
+                map.put(ArmorItem.Type.LEGGINGS, 1);
+                map.put(ArmorItem.Type.CHESTPLATE, 2);
+                map.put(ArmorItem.Type.HELMET, 1);
+                map.put(ArmorItem.Type.BODY, 1);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.TIN_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(TurtleMod.MOD_ID, "tin"))), 0,0
+            ));
+*/
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(TurtleMod.MOD_ID, name), material.get());

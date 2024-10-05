@@ -1,6 +1,10 @@
 {
   "values": [
     "turtlemod:copper_sword",
-    "turtlemod:tin_sword"
+    "turtlemod:tin_sword",
+    "turtlemod:nickel_sword",
+    "turtlemod:lead_sword",
+    "turtlemod:silver_sword",
+    "turtlemod:titanium_sword"
   ]
 }

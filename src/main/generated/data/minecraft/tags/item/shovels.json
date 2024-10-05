@@ -1,6 +1,10 @@
 {
   "values": [
     "turtlemod:copper_shovel",
-    "turtlemod:tin_shovel"
+    "turtlemod:tin_shovel",
+    "turtlemod:nickel_shovel",
+    "turtlemod:lead_shovel",
+    "turtlemod:silver_shovel",
+    "turtlemod:titanium_shovel"
   ]
 }

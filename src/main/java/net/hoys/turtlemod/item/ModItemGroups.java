@@ -86,19 +86,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
                     })).build());
 
-
-
-    public static final ItemGroup MISCELLANEOUS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TurtleMod.MOD_ID, "miscellaneous_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(Items.WAXED_EXPOSED_CUT_COPPER_STAIRS))
-                    .displayName(Text.translatable("itemgroup.turtlemod.miscellaneous"))
+    public static final ItemGroup NEW_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "new_tools"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.IRON_PICKAXE))
+                    .displayName(Text.translatable("itemgroup.turtlemod.tools"))
                     .entries(((displayContext, entries) -> {
-                        entries.add(ModItems.COPPER_COIN);
-                        entries.add(ModItems.CHISEL);
-
-                        entries.add(ModBlocks.MAGIC_BLOCK);
-
-
                         entries.add(ModItems.COPPER_SWORD);
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_PICKAXE);
@@ -134,6 +126,20 @@ public class ModItemGroups {
                         entries.add(ModItems.TITANIUM_PICKAXE);
                         entries.add(ModItems.TITANIUM_AXE);
                         entries.add(ModItems.TITANIUM_HOE);
+                    })).build());
+
+    public static final ItemGroup MISCELLANEOUS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TurtleMod.MOD_ID, "miscellaneous_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.WAXED_EXPOSED_CUT_COPPER_STAIRS))
+                    .displayName(Text.translatable("itemgroup.turtlemod.miscellaneous"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.COPPER_COIN);
+                        entries.add(ModItems.CHISEL);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+
+
+
 
                     })).build());
 

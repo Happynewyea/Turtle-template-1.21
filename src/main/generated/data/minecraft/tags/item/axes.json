@@ -1,6 +1,10 @@
 {
   "values": [
     "turtlemod:copper_axe",
-    "turtlemod:tin_axe"
+    "turtlemod:tin_axe",
+    "turtlemod:nickel_axe",
+    "turtlemod:lead_axe",
+    "turtlemod:silver_axe",
+    "turtlemod:titanium_axe"
   ]
 }

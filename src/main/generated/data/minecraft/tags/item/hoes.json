@@ -1,6 +1,10 @@
 {
   "values": [
     "turtlemod:copper_hoe",
-    "turtlemod:tin_hoe"
+    "turtlemod:tin_hoe",
+    "turtlemod:nickel_hoe",
+    "turtlemod:lead_hoe",
+    "turtlemod:silver_hoe",
+    "turtlemod:titanium_hoe"
   ]
 }

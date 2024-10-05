@@ -1,6 +1,10 @@
 {
   "values": [
     "turtlemod:copper_pickaxe",
-    "turtlemod:tin_pickaxe"
+    "turtlemod:tin_pickaxe",
+    "turtlemod:nickel_pickaxe",
+    "turtlemod:lead_pickaxe",
+    "turtlemod:silver_pickaxe",
+    "turtlemod:titanium_pickaxe"
   ]
 }
