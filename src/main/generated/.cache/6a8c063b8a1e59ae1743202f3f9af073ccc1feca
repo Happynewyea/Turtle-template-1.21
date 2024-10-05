@@ -1,4 +1,4 @@
-// 1.21	2024-10-04T16:03:46.4866703	Turtle Mod/Block Loot Tables
+// 1.21	2024-10-04T23:04:49.2336053	Turtle Mod/Block Loot Tables
 e5899dfadfb950cb958e7cbfb66515010d7c5ee5 data\turtlemod\loot_table\blocks\deepslate_nickel_ore.json
 ad36642281d7fb2281d86316007240ac835242ae data\turtlemod\loot_table\blocks\raw_nickel_block.json
 d08a4e36362ebac0fe1a2fa254a2d449d0a54056 data\turtlemod\loot_table\blocks\raw_titanium_block.json
@@ -21,6 +21,6 @@ deed658cae55c7cccf297cfc5b4a3d0a0a731b05 data\turtlemod\loot_table\blocks\deepsl
 1b2bd27c77d942f7d8886177270102360da9f152 data\turtlemod\loot_table\blocks\nickel_ore.json
 13c9061a26450c7734c748b7e4863469b7eabaee data\turtlemod\loot_table\blocks\tin_block.json
 0afe9cbc8b2f6b70c8f496d559d59bef1266982e data\turtlemod\loot_table\blocks\raw_silver_block.json
+6f3d6389911019aa646950b66a0cba452b9e9f88 data\turtlemod\loot_table\blocks\magic_block.json
 e24fa5421396979815f80a113b8d070677efa0a1 data\turtlemod\loot_table\blocks\raw_tin_block.json
 7d324d9c8ddef27107ddf6d59baa2b2a27e28c50 data\turtlemod\loot_table\blocks\silver_block.json
-6f3d6389911019aa646950b66a0cba452b9e9f88 data\turtlemod\loot_table\blocks\magic_block.json
