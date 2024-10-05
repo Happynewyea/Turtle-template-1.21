@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "turtlemod:raw_nickel_block"
+      "item": "turtlemod:raw_titanium_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "turtlemod:raw_nickel"
+    "id": "turtlemod:raw_titanium"
   }
 }

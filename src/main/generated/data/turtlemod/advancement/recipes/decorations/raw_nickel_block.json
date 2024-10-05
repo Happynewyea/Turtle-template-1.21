@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_tin_block": {
+    "has_raw_nickel": {
       "conditions": {
         "items": [
           {
-            "items": "turtlemod:raw_tin_block"
+            "items": "turtlemod:raw_nickel"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "turtlemod:raw_tin"
+        "recipe": "minecraft:raw_nickel_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_tin_block"
+      "has_raw_nickel"
     ]
   ],
   "rewards": {
     "recipes": [
-      "turtlemod:raw_tin"
+      "minecraft:raw_nickel_block"
     ]
   }
 }

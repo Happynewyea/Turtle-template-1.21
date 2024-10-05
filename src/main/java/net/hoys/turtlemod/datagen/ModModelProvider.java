@@ -76,6 +76,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUTONIUM_BOOTS));
 
 
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.TIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_HOE, Models.HANDHELD);
+
+
 
     }
 }

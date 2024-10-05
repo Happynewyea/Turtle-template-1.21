@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_nickel": {
+    "has_raw_lutonium": {
       "conditions": {
         "items": [
           {
-            "items": "turtlemod:raw_nickel"
+            "items": "turtlemod:raw_lutonium"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "turtlemod:raw_nickel_block"
+        "recipe": "minecraft:raw_lutonium_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_nickel"
+      "has_raw_lutonium"
     ]
   ],
   "rewards": {
     "recipes": [
-      "turtlemod:raw_nickel_block"
+      "minecraft:raw_lutonium_block"
     ]
   }
 }

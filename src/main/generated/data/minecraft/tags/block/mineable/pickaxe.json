@@ -14,6 +14,16 @@
     "turtlemod:deepslate_silver_ore",
     "turtlemod:titanium_ore",
     "turtlemod:deepslate_titanium_ore",
+    "turtlemod:tin_block",
+    "turtlemod:raw_tin_block",
+    "turtlemod:nickel_block",
+    "turtlemod:raw_nickel_block",
+    "turtlemod:lead_block",
+    "turtlemod:raw_lead_block",
+    "turtlemod:silver_block",
+    "turtlemod:raw_silver_block",
+    "turtlemod:titanium_block",
+    "turtlemod:raw_titanium_block",
     "turtlemod:magic_block"
   ]
 }

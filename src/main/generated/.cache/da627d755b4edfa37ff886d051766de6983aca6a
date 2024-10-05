@@ -1,3 +1,8 @@
-// 1.21	2024-10-04T23:04:49.236737	Turtle Mod/Tags for minecraft:item
+// 1.21	2024-10-05T18:54:56.5139484	Turtle Mod/Tags for minecraft:item
+2d2fad321a236d877cbd8e4a0271b4a94cf54a1e data\minecraft\tags\item\shovels.json
+c8e4b85b10d6c2c8db4e0ab4ac783e7117ac5df1 data\minecraft\tags\item\pickaxes.json
+0c4a675b66894b11e6eba0f6623b916a8dea5572 data\minecraft\tags\item\swords.json
 4020e8de1511df4047e0e1d412e498f8a02330c8 data\turtlemod\tags\item\transformable_items.json
+35c1b1c3f3f1c7e09a918413f19a54f4153e8ce6 data\minecraft\tags\item\hoes.json
 1d37befb15ece50aefdd765c627635e1fa3c1ed1 data\minecraft\tags\item\trimmable_armor.json
+ebedde5e749df0b65bff9271555260a90077a155 data\minecraft\tags\item\axes.json

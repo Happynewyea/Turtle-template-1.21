@@ -3,6 +3,7 @@ package net.hoys.turtlemod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.hoys.turtlemod.block.ModBlocks;
+import net.hoys.turtlemod.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -21,6 +22,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .add(ModBlocks.LUTONIUM_ORE)
                 .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE)
+
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.DEEPSLATE_TIN_ORE)
                 .add(ModBlocks.NICKEL_ORE)
@@ -31,6 +33,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_SILVER_ORE)
                 .add(ModBlocks.TITANIUM_ORE)
                 .add(ModBlocks.DEEPSLATE_TITANIUM_ORE)
+
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.RAW_TIN_BLOCK)
+                .add(ModBlocks.NICKEL_BLOCK)
+                .add(ModBlocks.RAW_NICKEL_BLOCK)
+                .add(ModBlocks.LEAD_BLOCK)
+                .add(ModBlocks.RAW_LEAD_BLOCK)
+                .add(ModBlocks.SILVER_BLOCK)
+                .add(ModBlocks.RAW_SILVER_BLOCK)
+                .add(ModBlocks.TITANIUM_BLOCK)
+                .add(ModBlocks.RAW_TITANIUM_BLOCK)
+
                 .add(ModBlocks.MAGIC_BLOCK);
 
 
@@ -39,6 +53,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_LUTONIUM_BLOCK)
                 .add(ModBlocks.LUTONIUM_ORE)
                 .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE)
+
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.DEEPSLATE_TIN_ORE)
                 .add(ModBlocks.NICKEL_ORE)
@@ -48,6 +63,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.DEEPSLATE_SILVER_ORE)
                 .add(ModBlocks.TITANIUM_ORE)
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE)
+
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.RAW_TIN_BLOCK)
+                .add(ModBlocks.NICKEL_BLOCK)
+                .add(ModBlocks.RAW_NICKEL_BLOCK)
+                .add(ModBlocks.LEAD_BLOCK)
+                .add(ModBlocks.RAW_LEAD_BLOCK)
+                .add(ModBlocks.SILVER_BLOCK)
+                .add(ModBlocks.RAW_SILVER_BLOCK)
+                .add(ModBlocks.TITANIUM_BLOCK)
+                .add(ModBlocks.RAW_TITANIUM_BLOCK);
+
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TIN_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK);
     }
+
 }

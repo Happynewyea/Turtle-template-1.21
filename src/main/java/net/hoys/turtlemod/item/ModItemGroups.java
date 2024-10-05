@@ -91,6 +91,19 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_HOE);
+
+                        entries.add(ModItems.TIN_SWORD);
+                        entries.add(ModItems.TIN_SHOVEL);
+                        entries.add(ModItems.TIN_PICKAXE);
+                        entries.add(ModItems.TIN_AXE);
+                        entries.add(ModItems.TIN_HOE);
                     })).build());
 
 

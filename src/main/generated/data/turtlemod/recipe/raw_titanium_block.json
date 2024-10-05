@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "turtlemod:raw_lutonium"
+      "item": "turtlemod:raw_titanium"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "turtlemod:raw_lutonium_block"
+    "id": "turtlemod:raw_titanium_block"
   }
 }

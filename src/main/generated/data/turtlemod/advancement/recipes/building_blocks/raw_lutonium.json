@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_lutonium": {
+    "has_raw_lutonium_block": {
       "conditions": {
         "items": [
           {
-            "items": "turtlemod:raw_lutonium"
+            "items": "turtlemod:raw_lutonium_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "turtlemod:raw_lutonium_block"
+        "recipe": "minecraft:raw_lutonium"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_lutonium"
+      "has_raw_lutonium_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "turtlemod:raw_lutonium_block"
+      "minecraft:raw_lutonium"
     ]
   }
 }

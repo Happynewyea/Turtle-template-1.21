@@ -25,5 +25,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.LUTONIUM_CHESTPLATE)
                 .add(ModItems.LUTONIUM_LEGGINGS)
                 .add(ModItems.LUTONIUM_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.COPPER_SWORD)
+                .add(ModItems.TIN_SWORD);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.COPPER_SHOVEL)
+                .add(ModItems.TIN_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.COPPER_PICKAXE)
+                .add(ModItems.TIN_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.COPPER_AXE)
+                .add(ModItems.TIN_AXE);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.COPPER_HOE)
+                .add(ModItems.TIN_HOE);
+
+
     }
 }

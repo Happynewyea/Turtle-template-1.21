@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
+    "#": {
       "item": "turtlemod:raw_tin"
     }
   },
   "pattern": [
-    "RRR",
-    "RRR",
-    "RRR"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "count": 1,
