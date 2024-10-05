@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -73,9 +74,258 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_SILVER, RecipeCategory.DECORATIONS, ModBlocks.RAW_SILVER_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_TITANIUM, RecipeCategory.DECORATIONS, ModBlocks.RAW_TITANIUM_BLOCK);
 
+        // COPPER ----------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" * ")
+                .input('R', Items.COPPER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_SHOVEL)
+                .pattern(" R ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', Items.COPPER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_PICKAXE)
+                .pattern("RRR")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', Items.COPPER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_AXE)
+                .pattern("RR ")
+                .pattern("R* ")
+                .pattern(" * ")
+                .input('R', Items.COPPER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_HOE)
+                .pattern("RR ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', Items.COPPER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        // TIN ----------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" * ")
+                .input('R', ModItems.TIN_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_SHOVEL)
+                .pattern(" R ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.TIN_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_PICKAXE)
+                .pattern("RRR")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.TIN_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_AXE)
+                .pattern("RR ")
+                .pattern("R* ")
+                .pattern(" * ")
+                .input('R', ModItems.TIN_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_HOE)
+                .pattern("RR ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.TIN_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
 
 
+        // NICKEL ----------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NICKEL_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" * ")
+                .input('R', ModItems.NICKEL_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NICKEL_SHOVEL)
+                .pattern(" R ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.NICKEL_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NICKEL_PICKAXE)
+                .pattern("RRR")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.NICKEL_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NICKEL_AXE)
+                .pattern("RR ")
+                .pattern("R* ")
+                .pattern(" * ")
+                .input('R', ModItems.NICKEL_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NICKEL_HOE)
+                .pattern("RR ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.NICKEL_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
 
+        // LEAD ----------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" * ")
+                .input('R', ModItems.LEAD_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.LEAD_INGOT), conditionsFromItem(ModItems.LEAD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_SHOVEL)
+                .pattern(" R ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.LEAD_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.LEAD_INGOT), conditionsFromItem(ModItems.LEAD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_PICKAXE)
+                .pattern("RRR")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.LEAD_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.LEAD_INGOT), conditionsFromItem(ModItems.LEAD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_AXE)
+                .pattern("RR ")
+                .pattern("R* ")
+                .pattern(" * ")
+                .input('R', ModItems.LEAD_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.LEAD_INGOT), conditionsFromItem(ModItems.LEAD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_HOE)
+                .pattern("RR ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.LEAD_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.LEAD_INGOT), conditionsFromItem(ModItems.LEAD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        // SILVER ----------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SILVER_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" * ")
+                .input('R', ModItems.SILVER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.SILVER_INGOT), conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SILVER_SHOVEL)
+                .pattern(" R ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.SILVER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.SILVER_INGOT), conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SILVER_PICKAXE)
+                .pattern("RRR")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.SILVER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.SILVER_INGOT), conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SILVER_AXE)
+                .pattern("RR ")
+                .pattern("R* ")
+                .pattern(" * ")
+                .input('R', ModItems.SILVER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.SILVER_INGOT), conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SILVER_HOE)
+                .pattern("RR ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.SILVER_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.SILVER_INGOT), conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        // TITANIUM ----------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" * ")
+                .input('R', ModItems.TITANIUM_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_SHOVEL)
+                .pattern(" R ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.TITANIUM_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_PICKAXE)
+                .pattern("RRR")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.TITANIUM_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_AXE)
+                .pattern("RR ")
+                .pattern("R* ")
+                .pattern(" * ")
+                .input('R', ModItems.TITANIUM_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_HOE)
+                .pattern("RR ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .input('R', ModItems.TITANIUM_INGOT).input('*', Items.STICK)
+                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
 
 
 

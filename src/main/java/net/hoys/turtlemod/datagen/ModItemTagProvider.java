@@ -28,19 +28,39 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD)
-                .add(ModItems.TIN_SWORD);
+                .add(ModItems.TIN_SWORD)
+                .add(ModItems.NICKEL_SWORD)
+                .add(ModItems.LEAD_SWORD)
+                .add(ModItems.SILVER_SWORD)
+                .add(ModItems.TITANIUM_SWORD);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.COPPER_SHOVEL)
-                .add(ModItems.TIN_SHOVEL);
+                .add(ModItems.TIN_SHOVEL)
+                .add(ModItems.NICKEL_SHOVEL)
+                .add(ModItems.LEAD_SHOVEL)
+                .add(ModItems.SILVER_SHOVEL)
+                .add(ModItems.TITANIUM_SHOVEL);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.COPPER_PICKAXE)
-                .add(ModItems.TIN_PICKAXE);
+                .add(ModItems.TIN_PICKAXE)
+                .add(ModItems.NICKEL_PICKAXE)
+                .add(ModItems.LEAD_PICKAXE)
+                .add(ModItems.SILVER_PICKAXE)
+                .add(ModItems.TITANIUM_PICKAXE);
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.COPPER_AXE)
-                .add(ModItems.TIN_AXE);
+                .add(ModItems.TIN_AXE)
+                .add(ModItems.NICKEL_AXE)
+                .add(ModItems.LEAD_AXE)
+                .add(ModItems.SILVER_AXE)
+                .add(ModItems.TITANIUM_AXE);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.COPPER_HOE)
-                .add(ModItems.TIN_HOE);
+                .add(ModItems.TIN_HOE)
+                .add(ModItems.NICKEL_HOE)
+                .add(ModItems.LEAD_HOE)
+                .add(ModItems.SILVER_HOE)
+                .add(ModItems.TITANIUM_HOE);
 
 
     }

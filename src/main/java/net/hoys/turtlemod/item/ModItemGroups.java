@@ -39,6 +39,12 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.turtlemod.custom_foods"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.GARLIC);
+                        entries.add(ModItems.STRAWBERRY);
+
+                        entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        entries.add(ModItems.GARLIC_SEEDS);
+                        entries.add(ModItems.STRAWBERRY_SEEDS);
                     })).build());
 
     public static final ItemGroup CUSTOM_ORES_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -104,6 +110,31 @@ public class ModItemGroups {
                         entries.add(ModItems.TIN_PICKAXE);
                         entries.add(ModItems.TIN_AXE);
                         entries.add(ModItems.TIN_HOE);
+
+                        entries.add(ModItems.NICKEL_SWORD);
+                        entries.add(ModItems.NICKEL_SHOVEL);
+                        entries.add(ModItems.NICKEL_PICKAXE);
+                        entries.add(ModItems.NICKEL_AXE);
+                        entries.add(ModItems.NICKEL_HOE);
+
+                        entries.add(ModItems.LEAD_SWORD);
+                        entries.add(ModItems.LEAD_SHOVEL);
+                        entries.add(ModItems.LEAD_PICKAXE);
+                        entries.add(ModItems.LEAD_AXE);
+                        entries.add(ModItems.LEAD_HOE);
+
+                        entries.add(ModItems.SILVER_SWORD);
+                        entries.add(ModItems.SILVER_SHOVEL);
+                        entries.add(ModItems.SILVER_PICKAXE);
+                        entries.add(ModItems.SILVER_AXE);
+                        entries.add(ModItems.SILVER_HOE);
+
+                        entries.add(ModItems.TITANIUM_SWORD);
+                        entries.add(ModItems.TITANIUM_SHOVEL);
+                        entries.add(ModItems.TITANIUM_PICKAXE);
+                        entries.add(ModItems.TITANIUM_AXE);
+                        entries.add(ModItems.TITANIUM_HOE);
+
                     })).build());
 
 

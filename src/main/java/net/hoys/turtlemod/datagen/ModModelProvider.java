@@ -3,6 +3,9 @@ package net.hoys.turtlemod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.hoys.turtlemod.block.ModBlocks;
+import net.hoys.turtlemod.block.custom.CauliflowerCropBlock;
+import net.hoys.turtlemod.block.custom.GarlicCropBlock;
+import net.hoys.turtlemod.block.custom.StrawberryCropBlock;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -47,6 +50,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TITANIUM_BLOCK);
 
 
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4);
+
+
 
     }
 
@@ -56,6 +64,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_LUTONIUM, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GARLIC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
+
+
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.COPPER_COIN, Models.GENERATED);
 
@@ -87,6 +99,32 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.NICKEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NICKEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NICKEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NICKEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NICKEL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.LEAD_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LEAD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LEAD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LEAD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LEAD_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SILVER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SILVER_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.TITANIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_HOE, Models.HANDHELD);
+
+
 
 
 

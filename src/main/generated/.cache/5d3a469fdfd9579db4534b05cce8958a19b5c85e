@@ -1,5 +1,5 @@
-// 1.21	2024-10-05T18:54:56.5108955	Turtle Mod/Tags for minecraft:block
+// 1.21	2024-10-05T22:36:48.7280872	Turtle Mod/Tags for minecraft:block
 8f559cfd7c0707ab513124b04096d39c8675302a data\turtlemod\tags\block\needs_tin_tool.json
-a0ea2c960ce4b451fe7218dc78123f4a46fa6bb9 data\minecraft\tags\block\needs_diamond_tool.json
-b954e3a64d61075bda57dd8aab6a0f9a1411920a data\minecraft\tags\block\mineable\pickaxe.json
 8f559cfd7c0707ab513124b04096d39c8675302a data\turtlemod\tags\block\needs_copper_tool.json
+b954e3a64d61075bda57dd8aab6a0f9a1411920a data\minecraft\tags\block\mineable\pickaxe.json
+a0ea2c960ce4b451fe7218dc78123f4a46fa6bb9 data\minecraft\tags\block\needs_diamond_tool.json

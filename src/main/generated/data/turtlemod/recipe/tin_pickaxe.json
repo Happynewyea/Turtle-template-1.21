@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "*": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "turtlemod:tin_ingot"
+    }
+  },
+  "pattern": [
+    "RRR",
+    " * ",
+    " * "
+  ],
+  "result": {
+    "count": 1,
+    "id": "turtlemod:tin_pickaxe"
+  }
+}

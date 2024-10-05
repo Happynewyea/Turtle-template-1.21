@@ -1,8 +1,21 @@
 {
+  "item.turtlemod.cauliflower": "Cauliflower",
+  "item.turtlemod.garlic": "Garlic",
+  "item.turtlemod.strawberry": "Strawberry",
+
+  "item.turtlemod.cauliflower_seeds": "Cauliflower Seeds",
+  "item.turtlemod.garlic_seeds": "Garlic Seeds",
+  "item.turtlemod.strawberry_seeds": "Strawberry Seeds",
+
+
+
+
+
   "item.turtlemod.lutonium": "Lutonium",
   "item.turtlemod.raw_lutonium": "Raw Lutonium",
-  "item.turtlemod.cauliflower": "Cauliflower",
   "item.turtlemod.chisel": "Chisel",
+
+
 
   "item.turtlemod.raw_tin": "Raw Tin",
   "item.turtlemod.raw_nickel": "Raw Nickel",
@@ -20,6 +33,44 @@
   "item.turtlemod.lutonium_chestplate": "Lutonium Chestplate",
   "item.turtlemod.lutonium_leggings": "Lutonium Leggings",
   "item.turtlemod.lutonium_boots": "Lutonium Boots",
+
+
+
+  "item.turtlemod.copper_sword": "Copper Sword",
+  "item.turtlemod.copper_shovel": "Copper Shovel",
+  "item.turtlemod.copper_pickaxe": "Copper Pickaxe",
+  "item.turtlemod.copper_axe": "Copper Axe",
+  "item.turtlemod.copper_hoe": "Copper Hoe",
+
+  "item.turtlemod.tin_sword": "Tin Sword",
+  "item.turtlemod.tin_shovel": "Tin Shovel",
+  "item.turtlemod.tin_pickaxe": "Tin Pickaxe",
+  "item.turtlemod.tin_axe": "Tin Axe",
+  "item.turtlemod.tin_hoe": "Tin Hoe",
+
+  "item.turtlemod.nickel_sword": "Nickel Sword",
+  "item.turtlemod.nickel_shovel": "Nickel Shovel",
+  "item.turtlemod.nickel_pickaxe": "Nickel Pickaxe",
+  "item.turtlemod.nickel_axe": "Nickel Axe",
+  "item.turtlemod.nickel_hoe": "Nickel Hoe",
+
+  "item.turtlemod.lead_sword": "Lead Sword",
+  "item.turtlemod.lead_shovel": "Lead Shovel",
+  "item.turtlemod.lead_pickaxe": "Lead Pickaxe",
+  "item.turtlemod.lead_axe": "Lead Axe",
+  "item.turtlemod.lead_hoe": "Lead Hoe",
+
+  "item.turtlemod.silver_sword": "Silver Sword",
+  "item.turtlemod.silver_shovel": "Silver Shovel",
+  "item.turtlemod.silver_pickaxe": "Silver Pickaxe",
+  "item.turtlemod.silver_axe": "Silver Axe",
+  "item.turtlemod.silver_hoe": "Silver Hoe",
+
+  "item.turtlemod.titanium_sword": "Titanium Sword",
+  "item.turtlemod.titanium_shovel": "Titanium Shovel",
+  "item.turtlemod.titanium_pickaxe": "Titanium Pickaxe",
+  "item.turtlemod.titanium_axe": "Titanium Axe",
+  "item.turtlemod.titanium_hoe": "Titanium Hoe",
 
 
   "block.turtlemod.lutonium_block": "Lutonium Block",
