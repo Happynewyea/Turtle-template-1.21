@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "turtlemod:block/garlic_crop_stage3"
+    "crop": "turtlemod:block/strawberries_stage0"
   }
 }

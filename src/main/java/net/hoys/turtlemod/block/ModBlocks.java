@@ -3,10 +3,10 @@ package net.hoys.turtlemod.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.hoys.turtlemod.TurtleMod;
-import net.hoys.turtlemod.block.custom.CauliflowerCropBlock;
-import net.hoys.turtlemod.block.custom.GarlicCropBlock;
+import net.hoys.turtlemod.block.custom.CauliflowerBlock;
+import net.hoys.turtlemod.block.custom.GarlicBlock;
 import net.hoys.turtlemod.block.custom.MagicBlock;
-import net.hoys.turtlemod.block.custom.StrawberryCropBlock;
+import net.hoys.turtlemod.block.custom.StrawberryBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -107,14 +107,14 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
-    public static final Block CAULIFLOWER_CROP = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "cauliflower_crop"),
-            new CauliflowerCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+    public static final Block CAULIFLOWERS = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "cauliflowers"),
+            new CauliflowerBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
 
-    public static final Block GARLIC_CROP = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "garlic_crop"),
-            new GarlicCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+    public static final Block GARLICS = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "garlics"),
+            new GarlicBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
 
-    public static final Block STRAWBERRY_CROP = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "strawberry_crop"),
-            new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+    public static final Block STRAWBERRIES = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "strawberries"),
+            new StrawberryBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));

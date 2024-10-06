@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "turtlemod:garlic_crop",
+                  "block": "turtlemod:cauliflowers",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "age": "3"
+                    "age": "4"
                   }
                 }
               ],
-              "name": "turtlemod:garlic"
+              "name": "turtlemod:cauliflower"
             },
             {
               "type": "minecraft:item",
-              "name": "turtlemod:garlic_seeds"
+              "name": "turtlemod:cauliflower_seeds"
             }
           ]
         }
@@ -38,10 +38,10 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "turtlemod:garlic_crop",
+          "block": "turtlemod:cauliflowers",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "3"
+            "age": "4"
           }
         }
       ],
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "turtlemod:garlic_seeds"
+          "name": "turtlemod:cauliflower_seeds"
         }
       ],
       "rolls": 1.0

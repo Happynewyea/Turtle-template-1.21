@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "turtlemod:strawberry_crop",
+                  "block": "turtlemod:garlics",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "age": "4"
+                    "age": "3"
                   }
                 }
               ],
-              "name": "turtlemod:strawberry"
+              "name": "turtlemod:garlic"
             },
             {
               "type": "minecraft:item",
-              "name": "turtlemod:strawberry_seeds"
+              "name": "turtlemod:garlic_seeds"
             }
           ]
         }
@@ -38,10 +38,10 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "turtlemod:strawberry_crop",
+          "block": "turtlemod:garlics",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "4"
+            "age": "3"
           }
         }
       ],
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "turtlemod:strawberry_seeds"
+          "name": "turtlemod:garlic_seeds"
         }
       ],
       "rolls": 1.0

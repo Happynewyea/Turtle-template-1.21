@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "turtlemod:cauliflower_crop",
+                  "block": "turtlemod:strawberries",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "4"
                   }
                 }
               ],
-              "name": "turtlemod:cauliflower"
+              "name": "turtlemod:strawberry"
             },
             {
               "type": "minecraft:item",
-              "name": "turtlemod:cauliflower_seeds"
+              "name": "turtlemod:strawberry_seeds"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "turtlemod:cauliflower_crop",
+          "block": "turtlemod:strawberries",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "4"
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "turtlemod:cauliflower_seeds"
+          "name": "turtlemod:strawberry_seeds"
         }
       ],
       "rolls": 1.0

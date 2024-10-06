@@ -28,11 +28,11 @@ public class ModItems {
 
 
     public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
-            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
+            new AliasedBlockItem(ModBlocks.CAULIFLOWERS, new Item.Settings()));
     public static final Item GARLIC_SEEDS = registerItem("garlic_seeds",
-            new AliasedBlockItem(ModBlocks.GARLIC_CROP, new Item.Settings()));
+            new AliasedBlockItem(ModBlocks.GARLICS, new Item.Settings()));
     public static final Item STRAWBERRY_SEEDS = registerItem("strawberry_seeds",
-            new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP, new Item.Settings()));
+            new AliasedBlockItem(ModBlocks.STRAWBERRIES, new Item.Settings()));
 
 
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));

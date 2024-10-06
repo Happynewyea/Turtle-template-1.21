@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "turtlemod:block/cauliflower_crop_stage4"
+    "crop": "turtlemod:block/garlics_stage3"
   }
 }

@@ -3,9 +3,9 @@ package net.hoys.turtlemod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.hoys.turtlemod.block.ModBlocks;
-import net.hoys.turtlemod.block.custom.CauliflowerCropBlock;
-import net.hoys.turtlemod.block.custom.GarlicCropBlock;
-import net.hoys.turtlemod.block.custom.StrawberryCropBlock;
+import net.hoys.turtlemod.block.custom.CauliflowerBlock;
+import net.hoys.turtlemod.block.custom.GarlicBlock;
+import net.hoys.turtlemod.block.custom.StrawberryBlock;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -50,9 +50,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TITANIUM_BLOCK);
 
 
-        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4);
-        blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3);
-        blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRY_CROP, StrawberryCropBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWERS, CauliflowerBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.GARLICS, GarlicBlock.AGE, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRIES, StrawberryBlock.AGE, 0, 1, 2, 3, 4);
 
 
 

@@ -9,17 +9,17 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Properties;
 
-public class StrawberryCropBlock extends CropBlock {
+public class CauliflowerBlock extends CropBlock {
     public static final int MAX_AGE = 4;
     public static final IntProperty AGE = Properties.AGE_4;
 
-    public StrawberryCropBlock(Settings settings) {
+    public CauliflowerBlock(Settings settings) {
         super(settings);
     }
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return ModItems.STRAWBERRY_SEEDS;
+        return ModItems.CAULIFLOWER_SEEDS;
     }
 
     @Override
