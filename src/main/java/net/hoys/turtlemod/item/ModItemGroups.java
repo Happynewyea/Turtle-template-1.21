@@ -41,10 +41,21 @@ public class ModItemGroups {
                         entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModItems.GARLIC);
                         entries.add(ModItems.STRAWBERRY);
+                        entries.add(ModItems.PEPPER);
+                        entries.add(ModItems.BLUEBERRY);
+                        entries.add(ModItems.COFFEE_BEAN);
+                        entries.add(ModItems.CORN);
+                        entries.add(ModItems.TOMATO);
 
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
                         entries.add(ModItems.GARLIC_SEEDS);
                         entries.add(ModItems.STRAWBERRY_SEEDS);
+                        entries.add(ModItems.PEPPER_SEEDS);
+                        entries.add(ModItems.BLUEBERRY_SEEDS);
+                        entries.add(ModItems.COFFEE_BEAN_SEEDS);
+                        entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModItems.TOMATO_SEEDS);
+
                     })).build());
 
     public static final ItemGroup CUSTOM_ORES_GROUP = Registry.register(Registries.ITEM_GROUP,

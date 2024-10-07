@@ -47,6 +47,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.MAGIC_BLOCK);
 
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.NICKEL_ORE)
+                .add(ModBlocks.DEEPSLATE_NICKEL_ORE)
+
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.RAW_TIN_BLOCK)
+                .add(ModBlocks.NICKEL_BLOCK)
+                .add(ModBlocks.RAW_NICKEL_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.LEAD_ORE)
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE)
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE)
+
+
+                .add(ModBlocks.LEAD_BLOCK)
+                .add(ModBlocks.RAW_LEAD_BLOCK)
+                .add(ModBlocks.SILVER_BLOCK)
+                .add(ModBlocks.RAW_SILVER_BLOCK);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.LUTONIUM_BLOCK)
@@ -54,25 +77,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LUTONIUM_ORE)
                 .add(ModBlocks.DEEPSLATE_LUTONIUM_ORE)
 
-                .add(ModBlocks.TIN_ORE)
-                .add(ModBlocks.DEEPSLATE_TIN_ORE)
-                .add(ModBlocks.NICKEL_ORE)
-                .add(ModBlocks.DEEPSLATE_NICKEL_ORE)
-                .add(ModBlocks.LEAD_ORE)
-                .add(ModBlocks.DEEPSLATE_LEAD_ORE)
-                .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.DEEPSLATE_SILVER_ORE)
                 .add(ModBlocks.TITANIUM_ORE)
                 .add(ModBlocks.DEEPSLATE_TITANIUM_ORE)
 
-                .add(ModBlocks.TIN_BLOCK)
-                .add(ModBlocks.RAW_TIN_BLOCK)
-                .add(ModBlocks.NICKEL_BLOCK)
-                .add(ModBlocks.RAW_NICKEL_BLOCK)
-                .add(ModBlocks.LEAD_BLOCK)
-                .add(ModBlocks.RAW_LEAD_BLOCK)
-                .add(ModBlocks.SILVER_BLOCK)
-                .add(ModBlocks.RAW_SILVER_BLOCK)
                 .add(ModBlocks.TITANIUM_BLOCK)
                 .add(ModBlocks.RAW_TITANIUM_BLOCK);
 

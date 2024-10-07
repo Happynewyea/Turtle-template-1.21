@@ -25,6 +25,11 @@ public class ModItems {
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
     public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
     public static final Item STRAWBERRY = registerItem("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
+    public static final Item PEPPER = registerItem("pepper", new Item(new Item.Settings().food(ModFoodComponents.PEPPER)));
+    public static final Item BLUEBERRY = registerItem("blueberry", new Item(new Item.Settings().food(ModFoodComponents.BLUEBERRY)));
+    public static final Item COFFEE_BEAN = registerItem("coffee_bean", new Item(new Item.Settings().food(ModFoodComponents.COFFEE_BEAN)));
+    public static final Item CORN = registerItem("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
+    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
 
 
     public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
@@ -33,6 +38,16 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.GARLICS, new Item.Settings()));
     public static final Item STRAWBERRY_SEEDS = registerItem("strawberry_seeds",
             new AliasedBlockItem(ModBlocks.STRAWBERRIES, new Item.Settings()));
+    public static final Item PEPPER_SEEDS = registerItem("pepper_seeds",
+            new AliasedBlockItem(ModBlocks.PEPPERS, new Item.Settings()));
+    public static final Item BLUEBERRY_SEEDS = registerItem("blueberry_seeds",
+            new AliasedBlockItem(ModBlocks.BLUEBERRIES, new Item.Settings()));
+    public static final Item COFFEE_BEAN_SEEDS = registerItem("coffee_bean_seeds",
+            new AliasedBlockItem(ModBlocks.COFFEE_BEANS, new Item.Settings()));
+    public static final Item CORN_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORNS, new Item.Settings()));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATOES, new Item.Settings()));
 
 
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));

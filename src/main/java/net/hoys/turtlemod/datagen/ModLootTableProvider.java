@@ -4,9 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.hoys.turtlemod.block.ModBlocks;
-import net.hoys.turtlemod.block.custom.CauliflowerBlock;
-import net.hoys.turtlemod.block.custom.GarlicBlock;
-import net.hoys.turtlemod.block.custom.StrawberryBlock;
+import net.hoys.turtlemod.block.custom.*;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -79,6 +77,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder3 = BlockStatePropertyLootCondition.builder(ModBlocks.STRAWBERRIES)
                 .properties(StatePredicate.Builder.create().exactMatch(StrawberryBlock.AGE, 4));
         this.addDrop(ModBlocks.STRAWBERRIES, this.cropDrops(ModBlocks.STRAWBERRIES, ModItems.STRAWBERRY, ModItems.STRAWBERRY_SEEDS, builder3));
+
+        BlockStatePropertyLootCondition.Builder builder4 = BlockStatePropertyLootCondition.builder(ModBlocks.PEPPERS)
+                .properties(StatePredicate.Builder.create().exactMatch(StrawberryBlock.AGE, 4));
+        this.addDrop(ModBlocks.PEPPERS, this.cropDrops(ModBlocks.PEPPERS, ModItems.PEPPER, ModItems.PEPPER_SEEDS, builder4));
+
+        BlockStatePropertyLootCondition.Builder builder5 = BlockStatePropertyLootCondition.builder(ModBlocks.BLUEBERRIES)
+                .properties(StatePredicate.Builder.create().exactMatch(BlueberryBlock.AGE, 4));
+        this.addDrop(ModBlocks.BLUEBERRIES, this.cropDrops(ModBlocks.BLUEBERRIES, ModItems.BLUEBERRY, ModItems.BLUEBERRY_SEEDS, builder5));
+
+        BlockStatePropertyLootCondition.Builder builder6 = BlockStatePropertyLootCondition.builder(ModBlocks.COFFEE_BEANS)
+                .properties(StatePredicate.Builder.create().exactMatch(CoffeeBeanBlock.AGE, 3));
+        this.addDrop(ModBlocks.COFFEE_BEANS, this.cropDrops(ModBlocks.COFFEE_BEANS, ModItems.COFFEE_BEAN, ModItems.COFFEE_BEAN_SEEDS, builder6));
+
+        BlockStatePropertyLootCondition.Builder builder7 = BlockStatePropertyLootCondition.builder(ModBlocks.CORNS)
+                .properties(StatePredicate.Builder.create().exactMatch(CornBlock.AGE, 4));
+        this.addDrop(ModBlocks.CORNS, this.cropDrops(ModBlocks.CORNS, ModItems.CORN, ModItems.CORN_SEEDS, builder7));
+
+        BlockStatePropertyLootCondition.Builder builder8 = BlockStatePropertyLootCondition.builder(ModBlocks.TOMATOES)
+                .properties(StatePredicate.Builder.create().exactMatch(TomatoBlock.AGE, 4));
+        this.addDrop(ModBlocks.TOMATOES, this.cropDrops(ModBlocks.TOMATOES, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder8));
 
 
     }

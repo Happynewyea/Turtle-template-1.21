@@ -3,9 +3,7 @@ package net.hoys.turtlemod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.hoys.turtlemod.block.ModBlocks;
-import net.hoys.turtlemod.block.custom.CauliflowerBlock;
-import net.hoys.turtlemod.block.custom.GarlicBlock;
-import net.hoys.turtlemod.block.custom.StrawberryBlock;
+import net.hoys.turtlemod.block.custom.*;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -53,6 +51,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWERS, CauliflowerBlock.AGE, 0, 1, 2, 3, 4);
         blockStateModelGenerator.registerCrop(ModBlocks.GARLICS, GarlicBlock.AGE, 0, 1, 2, 3);
         blockStateModelGenerator.registerCrop(ModBlocks.STRAWBERRIES, StrawberryBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.PEPPERS, PepperBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.BLUEBERRIES, BlueberryBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.COFFEE_BEANS, CoffeeBeanBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.CORNS, CornBlock.AGE, 0, 1, 2, 3, 4);
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATOES, TomatoBlock.AGE, 0, 1, 2, 3, 4);
 
 
 
@@ -66,6 +69,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
         itemModelGenerator.register(ModItems.GARLIC, Models.GENERATED);
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PEPPER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUEBERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COFFEE_BEAN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
 
 
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);

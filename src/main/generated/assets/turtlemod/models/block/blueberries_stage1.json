@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "turtlemod:block/blueberries_stage1"
+  }
+}

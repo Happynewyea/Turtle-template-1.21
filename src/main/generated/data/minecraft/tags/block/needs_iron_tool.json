@@ -1,0 +1,12 @@
+{
+  "values": [
+    "turtlemod:lead_ore",
+    "turtlemod:deepslate_lead_ore",
+    "turtlemod:silver_ore",
+    "turtlemod:deepslate_silver_ore",
+    "turtlemod:lead_block",
+    "turtlemod:raw_lead_block",
+    "turtlemod:silver_block",
+    "turtlemod:raw_silver_block"
+  ]
+}

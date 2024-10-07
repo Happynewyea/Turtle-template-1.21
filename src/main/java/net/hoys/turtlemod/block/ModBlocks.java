@@ -3,10 +3,7 @@ package net.hoys.turtlemod.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.hoys.turtlemod.TurtleMod;
-import net.hoys.turtlemod.block.custom.CauliflowerBlock;
-import net.hoys.turtlemod.block.custom.GarlicBlock;
-import net.hoys.turtlemod.block.custom.MagicBlock;
-import net.hoys.turtlemod.block.custom.StrawberryBlock;
+import net.hoys.turtlemod.block.custom.*;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -115,6 +112,22 @@ public class ModBlocks {
 
     public static final Block STRAWBERRIES = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "strawberries"),
             new StrawberryBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block PEPPERS = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "peppers"),
+            new PepperBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block BLUEBERRIES = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "blueberries"),
+            new BlueberryBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block COFFEE_BEANS = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "coffee_beans"),
+            new CoffeeBeanBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block CORNS = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "corns"),
+            new CornBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block TOMATOES = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "tomatoes"),
+            new TomatoBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));

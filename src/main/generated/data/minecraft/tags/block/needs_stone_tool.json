@@ -1,0 +1,12 @@
+{
+  "values": [
+    "turtlemod:tin_ore",
+    "turtlemod:deepslate_tin_ore",
+    "turtlemod:nickel_ore",
+    "turtlemod:deepslate_nickel_ore",
+    "turtlemod:tin_block",
+    "turtlemod:raw_tin_block",
+    "turtlemod:nickel_block",
+    "turtlemod:raw_nickel_block"
+  ]
+}
