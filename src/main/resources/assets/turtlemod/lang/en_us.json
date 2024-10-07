@@ -7,6 +7,8 @@
   "item.turtlemod.coffee_bean": "Coffee Bean",
   "item.turtlemod.corn": "Corn",
   "item.turtlemod.tomato": "Tomato",
+  "item.turtlemod.radish": "Radish",
+  "item.turtlemod.cabbage": "Cabbage",
 
   "item.turtlemod.cauliflower_seeds": "Cauliflower Seeds",
   "item.turtlemod.garlic_seeds": "Garlic Seeds",
@@ -16,6 +18,8 @@
   "item.turtlemod.coffee_bean_seeds": "Coffee Bean Seeds",
   "item.turtlemod.corn_seeds": "Corn Seeds",
   "item.turtlemod.tomato_seeds": "Tomato Seeds",
+  "item.turtlemod.radish_seeds": "Radish Seeds",
+  "item.turtlemod.cabbage_seeds": "Cabbage Seeds",
 
 
 
@@ -83,8 +87,8 @@
   "item.turtlemod.titanium_hoe": "Titanium Hoe",
 
 
-  "block.turtlemod.lutonium_block": "Lutonium Block",
-  "block.turtlemod.raw_lutonium_block": "Raw Lutonium Block",
+  "block.turtlemod.lutonium_block": "Block of Lutonium",
+  "block.turtlemod.raw_lutonium_block": "Block of Raw Lutonium",
 
   "block.turtlemod.lutonium_ore": "Lutonium Ore",
   "block.turtlemod.deepslate_lutonium_ore": "Deepslate Lutonium Ore",
@@ -100,16 +104,16 @@
   "block.turtlemod.titanium_ore": "Titanium Ore",
   "block.turtlemod.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
-  "block.turtlemod.tin_block": "Tin Block",
-  "block.turtlemod.raw_tin_block": "Raw Tin Block",
-  "block.turtlemod.nickel_block": "Nickel Block",
-  "block.turtlemod.raw_nickel_block": "Raw Nickel Block",
-  "block.turtlemod.lead_block": "Lead Block",
-  "block.turtlemod.raw_lead_block": "Raw Lead Block",
-  "block.turtlemod.silver_block": "Silver Block",
-  "block.turtlemod.raw_silver_block": "Raw Silver Block",
-  "block.turtlemod.titanium_block": "Titanium Block",
-  "block.turtlemod.raw_titanium_block": "Raw Titanium Block",
+  "block.turtlemod.tin_block": "Block of Tin",
+  "block.turtlemod.raw_tin_block": "Block of Raw Tin",
+  "block.turtlemod.nickel_block": "Block of Nickel",
+  "block.turtlemod.raw_nickel_block": "Block of Raw Nickel",
+  "block.turtlemod.lead_block": "Block of Lead",
+  "block.turtlemod.raw_lead_block": "Block of Raw Lead",
+  "block.turtlemod.silver_block": "Block of Silver",
+  "block.turtlemod.raw_silver_block": "Block of Raw Silver",
+  "block.turtlemod.titanium_block": "Block of Titanium",
+  "block.turtlemod.raw_titanium_block": "Block of Raw Titanium",
 
 
   "block.turtlemod.magic_block": "Magic Block",

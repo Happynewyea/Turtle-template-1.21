@@ -46,6 +46,8 @@ public class ModItemGroups {
                         entries.add(ModItems.COFFEE_BEAN);
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.RADISH);
+                        entries.add(ModItems.CABBAGE);
 
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
                         entries.add(ModItems.GARLIC_SEEDS);
@@ -55,6 +57,8 @@ public class ModItemGroups {
                         entries.add(ModItems.COFFEE_BEAN_SEEDS);
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.RADISH_SEEDS);
+                        entries.add(ModItems.CABBAGE_SEEDS);
 
                     })).build());
 

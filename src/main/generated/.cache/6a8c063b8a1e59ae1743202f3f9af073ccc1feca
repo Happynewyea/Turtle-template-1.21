@@ -1,4 +1,4 @@
-// 1.21	2024-10-07T19:35:48.6775244	Turtle Mod/Block Loot Tables
+// 1.21	2024-10-07T22:59:30.2043092	Turtle Mod/Block Loot Tables
 e5899dfadfb950cb958e7cbfb66515010d7c5ee5 data\turtlemod\loot_table\blocks\deepslate_nickel_ore.json
 ad36642281d7fb2281d86316007240ac835242ae data\turtlemod\loot_table\blocks\raw_nickel_block.json
 d08a4e36362ebac0fe1a2fa254a2d449d0a54056 data\turtlemod\loot_table\blocks\raw_titanium_block.json
@@ -17,8 +17,10 @@ a64294a90b57ab525bbe099311a8dff77fb183f0 data\turtlemod\loot_table\blocks\raw_le
 d1ea66cacd146bc8c6886a2d5979e65c41aada24 data\turtlemod\loot_table\blocks\deepslate_silver_ore.json
 deed658cae55c7cccf297cfc5b4a3d0a0a731b05 data\turtlemod\loot_table\blocks\deepslate_tin_ore.json
 2210bd9593665eb55a9faa419bf9e8a966bc4664 data\turtlemod\loot_table\blocks\garlics.json
+8019c219163c5b01713108c2142a91259c742409 data\turtlemod\loot_table\blocks\radishes.json
 14bddc460d6cea73f084e9f323b0a1a984e0587c data\turtlemod\loot_table\blocks\cauliflowers.json
-a5e2e131e59a03e8089db56022e14622b9eef23a data\turtlemod\loot_table\blocks\coffee_beans.json
+b40bfe671c9d09e635defc069b917f572697f719 data\turtlemod\loot_table\blocks\cabbages.json
+b105d2e59dfb1a4118880ef504a132cbcbaf2ed3 data\turtlemod\loot_table\blocks\coffee_beans.json
 020332f764bd0fa31e716dc67d5da0ed65a9cfa7 data\turtlemod\loot_table\blocks\titanium_block.json
 607ec0310329fef039eb89319d4ad2eb0cb20e20 data\turtlemod\loot_table\blocks\raw_lutonium_block.json
 37d825ee9b0138e5e03b6ba4b159e250b732e807 data\turtlemod\loot_table\blocks\lead_block.json

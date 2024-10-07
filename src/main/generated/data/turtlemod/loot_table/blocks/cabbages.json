@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "turtlemod:coffee_beans",
+                  "block": "turtlemod:cabbages",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "4"
                   }
                 }
               ],
-              "name": "turtlemod:coffee_bean"
+              "name": "turtlemod:cabbage"
             },
             {
               "type": "minecraft:item",
-              "name": "turtlemod:coffee_bean_seeds"
+              "name": "turtlemod:cabbage_seeds"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "turtlemod:coffee_beans",
+          "block": "turtlemod:cabbages",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "4"
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "turtlemod:coffee_bean_seeds"
+          "name": "turtlemod:cabbage_seeds"
         }
       ],
       "rolls": 1.0

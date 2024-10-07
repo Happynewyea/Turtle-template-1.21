@@ -13,25 +13,29 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    /*
-    WOOD(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 59, 2.0F, 0.0F, 15, () -> Ingredient.fromTag(ItemTags.PLANKS)),
-	STONE(BlockTags.INCORRECT_FOR_STONE_TOOL, 131, 4.0F, 1.0F, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
-	IRON(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(Items.IRON_INGOT)),
-	DIAMOND(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1561, 8.0F, 3.0F, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
-	GOLD(BlockTags.INCORRECT_FOR_GOLD_TOOL, 32, 12.0F, 0.0F, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
-	NETHERITE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
-    */
+    WOOD(BlockTags.INCORRECT_FOR_WOODEN_TOOL,
+            59, 2.0F, 0.0F, 15, () -> Ingredient.fromTag(ItemTags.PLANKS)),
+	STONE(BlockTags.INCORRECT_FOR_STONE_TOOL,
+            131, 4.0F, 1.0F, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
+	IRON(BlockTags.INCORRECT_FOR_IRON_TOOL,
+            250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(Items.IRON_INGOT)),
+	DIAMOND(BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+            1561, 8.0F, 3.0F, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
+	GOLD(BlockTags.INCORRECT_FOR_GOLD_TOOL,
+            32, 12.0F, 0.0F, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
+	NETHERITE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
 
     COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL,
             128, 3.0F, 1.5F, 15, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
     TIN(ModTags.Blocks.INCORRECT_FOR_TIN_TOOL,
-            200, 3.5F, 2.0F, 9, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
+            200, 5.0F, 2.0F, 9, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     NICKEL(ModTags.Blocks.INCORRECT_FOR_NICKEL_TOOL,
-            600, 5.5F, 2.5F, 14, () -> Ingredient.ofItems(ModItems.NICKEL_INGOT)),
+            400, 6.5F, 2.5F, 14, () -> Ingredient.ofItems(ModItems.NICKEL_INGOT)),
     LEAD(ModTags.Blocks.INCORRECT_FOR_LEAD_TOOL,
-            1200, 7.5F, 3.0F, 10, () -> Ingredient.ofItems(ModItems.LEAD_INGOT)),
+            1500, 8.5F, 3.5F, 15, () -> Ingredient.ofItems(ModItems.LEAD_INGOT)),
     SILVER(ModTags.Blocks.INCORRECT_FOR_SILVER_TOOL,
-            1500, 8.5F, 3.0F, 16, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
+            300, 10.5F, 0.0F, 21, () -> Ingredient.ofItems(ModItems.SILVER_INGOT)),
     TITANIUM(ModTags.Blocks.INCORRECT_FOR_TITANIUM_TOOL,
             2500, 9.5F, 4.0F, 20, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT)),;
 
