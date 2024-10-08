@@ -9,6 +9,8 @@
   "item.turtlemod.tomato": "Tomato",
   "item.turtlemod.radish": "Radish",
   "item.turtlemod.cabbage": "Cabbage",
+  "item.turtlemod.pineapple": "Pineapple",
+  "item.turtlemod.eggplant": "Eggplant",
 
   "item.turtlemod.cauliflower_seeds": "Cauliflower Seeds",
   "item.turtlemod.garlic_seeds": "Garlic Seeds",
@@ -20,6 +22,8 @@
   "item.turtlemod.tomato_seeds": "Tomato Seeds",
   "item.turtlemod.radish_seeds": "Radish Seeds",
   "item.turtlemod.cabbage_seeds": "Cabbage Seeds",
+  "item.turtlemod.pineapple_seeds": "Pineapple Seeds",
+  "item.turtlemod.eggplant_seeds": "Eggplant Seeds",
 
 
 
@@ -28,6 +32,7 @@
   "item.turtlemod.lutonium": "Lutonium",
   "item.turtlemod.raw_lutonium": "Raw Lutonium",
   "item.turtlemod.chisel": "Chisel",
+  "item.turtlemod.copper_coin": "Copper Coin",
 
 
 

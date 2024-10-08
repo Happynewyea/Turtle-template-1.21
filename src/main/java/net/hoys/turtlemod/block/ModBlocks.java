@@ -134,6 +134,12 @@ public class ModBlocks {
     public static final Block CABBAGES = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "cabbages"),
             new CabbageBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
 
+    public static final Block PINEAPPLES = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "pineapples"),
+            new PineappleBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block EGGPLANTS = Registry.register(Registries.BLOCK, Identifier.of(TurtleMod.MOD_ID, "eggplants"),
+            new EggplantBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
 
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",

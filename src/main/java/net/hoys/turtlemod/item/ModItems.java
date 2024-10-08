@@ -32,6 +32,8 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
     public static final Item RADISH = registerItem("radish", new Item(new Item.Settings().food(ModFoodComponents.RADISH)));
     public static final Item CABBAGE = registerItem("cabbage", new Item(new Item.Settings().food(ModFoodComponents.CABBAGE)));
+    public static final Item PINEAPPLE = registerItem("pineapple", new Item(new Item.Settings().food(ModFoodComponents.PINEAPPLE)));
+    public static final Item EGGPLANT = registerItem("eggplant", new Item(new Item.Settings().food(ModFoodComponents.EGGPLANT)));
 
 
     public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
@@ -54,6 +56,10 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.RADISHES, new Item.Settings()));
     public static final Item CABBAGE_SEEDS = registerItem("cabbage_seeds",
             new AliasedBlockItem(ModBlocks.CABBAGES, new Item.Settings()));
+    public static final Item PINEAPPLE_SEEDS = registerItem("pineapple_seeds",
+            new AliasedBlockItem(ModBlocks.PINEAPPLES, new Item.Settings()));
+    public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
+            new AliasedBlockItem(ModBlocks.EGGPLANTS, new Item.Settings()));
 
 
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));

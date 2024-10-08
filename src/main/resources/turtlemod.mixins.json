@@ -3,7 +3,8 @@
   "package": "net.hoys.turtlemod.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "NetherPortalBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

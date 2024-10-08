@@ -2,23 +2,17 @@ package net.hoys.turtlemod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.block.custom.*;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.CropBlock;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
-import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
-import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
@@ -35,6 +29,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+
         addDrop(ModBlocks.LUTONIUM_BLOCK);
         addDrop(ModBlocks.RAW_LUTONIUM_BLOCK);
 
@@ -105,6 +100,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder10 = BlockStatePropertyLootCondition.builder(ModBlocks.CABBAGES)
                 .properties(StatePredicate.Builder.create().exactMatch(CabbageBlock.AGE, 4));
         this.addDrop(ModBlocks.CABBAGES, this.cropDrops(ModBlocks.CABBAGES, ModItems.CABBAGE, ModItems.CABBAGE_SEEDS, builder10));
+
+        BlockStatePropertyLootCondition.Builder builder11 = BlockStatePropertyLootCondition.builder(ModBlocks.PINEAPPLES)
+                .properties(StatePredicate.Builder.create().exactMatch(PineappleBlock.AGE, 4));
+        this.addDrop(ModBlocks.PINEAPPLES, this.cropDrops(ModBlocks.PINEAPPLES, ModItems.PINEAPPLE, ModItems.PINEAPPLE_SEEDS, builder11));
+
+        BlockStatePropertyLootCondition.Builder builder12 = BlockStatePropertyLootCondition.builder(ModBlocks.EGGPLANTS)
+                .properties(StatePredicate.Builder.create().exactMatch(EggplantBlock.AGE, 4));
+        this.addDrop(ModBlocks.EGGPLANTS, this.cropDrops(ModBlocks.EGGPLANTS, ModItems.EGGPLANT, ModItems.EGGPLANT_SEEDS, builder12));
 
 
     }
