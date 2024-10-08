@@ -1,4 +1,4 @@
-// 1.21	2024-10-08T16:18:55.8440103	Turtle Mod/
+// 1.21	2024-10-08T17:04:38.8960714	Turtle Mod/
 84a73d997e824e4ed3e56cd339fcde175e5ee69d data\turtlemod\worldgen\placed_feature\silver_ore_placed.json
 268bcc2b6ab59f1ebd486bdb0c32c9fd41201ca6 data\turtlemod\worldgen\configured_feature\titanium_ore.json
 bdfcded30b8e982f92be2c45b0ec272ba4d86eac data\turtlemod\worldgen\placed_feature\tin_ore_placed.json
@@ -7,7 +7,7 @@ bdfcded30b8e982f92be2c45b0ec272ba4d86eac data\turtlemod\worldgen\placed_feature\
 2350b1a89d9b1068535c4b34b74128caa61ad918 data\turtlemod\worldgen\configured_feature\silver_ore.json
 05246f96ef991a2f5ba338839a19b9c1be0d3949 data\turtlemod\worldgen\configured_feature\lead_ore.json
 14b9ec1294fcebdc8dfca1ed0ee98329f2951932 data\turtlemod\worldgen\placed_feature\titanium_ore_placed.json
-66af4cde97ce56af4979352f8ec7ca3b433655a1 data\turtlemod\worldgen\placed_feature\lutonium_ore_placed.json
 3963fb858228804f3b4ac458e8cc6ca2a6fc2329 data\turtlemod\worldgen\placed_feature\lead_ore_placed.json
+66af4cde97ce56af4979352f8ec7ca3b433655a1 data\turtlemod\worldgen\placed_feature\lutonium_ore_placed.json
 a808dff8d34ca55c75b02f7f604dca438dd2807a data\turtlemod\worldgen\configured_feature\lutonium_ore.json
 1cf56cbc8e433c49b0fc6e99882be7a19f5c7775 data\turtlemod\worldgen\configured_feature\tin_ore.json

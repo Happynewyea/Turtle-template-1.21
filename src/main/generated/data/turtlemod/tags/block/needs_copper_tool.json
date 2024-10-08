@@ -1,5 +1,6 @@
 {
   "values": [
+    "#minecraft:needs_stone_tool",
     "turtlemod:magic_block"
   ]
 }

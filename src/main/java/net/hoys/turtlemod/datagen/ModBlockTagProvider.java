@@ -86,21 +86,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
+                .addTag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TIN_TOOL)
+                .addTag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_NICKEL_TOOL)
+                .addTag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_LEAD_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SILVER_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
     }
 
