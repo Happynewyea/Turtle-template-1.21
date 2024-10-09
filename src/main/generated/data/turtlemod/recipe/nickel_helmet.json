@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "turtlemod:nickel_ingot"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "turtlemod:nickel_helmet"
+  }
+}

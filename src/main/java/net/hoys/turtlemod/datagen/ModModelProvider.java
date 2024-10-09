@@ -104,6 +104,36 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUTONIUM_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUTONIUM_BOOTS));
 
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIN_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NICKEL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NICKEL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NICKEL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NICKEL_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVER_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TITANIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TITANIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TITANIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TITANIUM_BOOTS));
+
 
         itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);

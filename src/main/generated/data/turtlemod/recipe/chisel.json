@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "turtlemod:lead_ingot"
+    },
+    "S": {
+      "item": "turtlemod:silver_ingot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "SLS",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "turtlemod:chisel"
+  }
+}

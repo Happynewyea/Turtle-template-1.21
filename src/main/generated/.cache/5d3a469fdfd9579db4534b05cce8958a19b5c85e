@@ -1,11 +1,11 @@
-// 1.21	2024-10-08T17:04:38.8885646	Turtle Mod/Tags for minecraft:block
+// 1.21	2024-10-09T22:17:23.4794919	Turtle Mod/Tags for minecraft:block
 95a72b2c0d9740835b8a1fdb4316249271a6184a data\turtlemod\tags\block\needs_tin_tool.json
+ff57fa0dd9c8b7330f520a97efaa9918f37188d9 data\turtlemod\tags\block\needs_copper_tool.json
 150966bbd1bc4d77b1ad4b2dab7fac550a53e108 data\minecraft\tags\block\needs_diamond_tool.json
 7ea6500d37a9edf5f0006a4fb4976b364f10937c data\minecraft\tags\block\needs_iron_tool.json
-95a72b2c0d9740835b8a1fdb4316249271a6184a data\turtlemod\tags\block\needs_copper_tool.json
 94bc72ddbc055175d5b075aefbd182ce77f55f9b data\minecraft\tags\block\needs_stone_tool.json
 b954e3a64d61075bda57dd8aab6a0f9a1411920a data\minecraft\tags\block\mineable\pickaxe.json
 95a72b2c0d9740835b8a1fdb4316249271a6184a data\turtlemod\tags\block\needs_nickel_tool.json
 681aa7bda6118fa322594456b1a60c5e366ef456 data\turtlemod\tags\block\needs_silver_tool.json
-e77ec4d1cb7312706b5b18508bf84a5dc68b5d47 data\turtlemod\tags\block\needs_titanium_tool.json
 e77ec4d1cb7312706b5b18508bf84a5dc68b5d47 data\turtlemod\tags\block\needs_lead_tool.json
+e77ec4d1cb7312706b5b18508bf84a5dc68b5d47 data\turtlemod\tags\block\needs_titanium_tool.json

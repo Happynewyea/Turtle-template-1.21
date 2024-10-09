@@ -24,7 +24,41 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.LUTONIUM_HELMET)
                 .add(ModItems.LUTONIUM_CHESTPLATE)
                 .add(ModItems.LUTONIUM_LEGGINGS)
-                .add(ModItems.LUTONIUM_BOOTS);
+                .add(ModItems.LUTONIUM_BOOTS)
+
+                .add(ModItems.COPPER_HELMET)
+                .add(ModItems.COPPER_CHESTPLATE)
+                .add(ModItems.COPPER_LEGGINGS)
+                .add(ModItems.COPPER_BOOTS)
+
+                .add(ModItems.TIN_HELMET)
+                .add(ModItems.TIN_CHESTPLATE)
+                .add(ModItems.TIN_LEGGINGS)
+                .add(ModItems.TIN_BOOTS)
+
+                .add(ModItems.NICKEL_HELMET)
+                .add(ModItems.NICKEL_CHESTPLATE)
+                .add(ModItems.NICKEL_LEGGINGS)
+                .add(ModItems.NICKEL_BOOTS)
+
+                .add(ModItems.LEAD_HELMET)
+                .add(ModItems.LEAD_CHESTPLATE)
+                .add(ModItems.LEAD_LEGGINGS)
+                .add(ModItems.LEAD_BOOTS)
+
+                .add(ModItems.SILVER_HELMET)
+                .add(ModItems.SILVER_CHESTPLATE)
+                .add(ModItems.SILVER_LEGGINGS)
+                .add(ModItems.SILVER_BOOTS)
+
+                .add(ModItems.TITANIUM_HELMET)
+                .add(ModItems.TITANIUM_CHESTPLATE)
+                .add(ModItems.TITANIUM_LEGGINGS)
+                .add(ModItems.TITANIUM_BOOTS);
+
+
+
+
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD)

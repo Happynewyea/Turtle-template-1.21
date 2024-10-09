@@ -53,6 +53,36 @@
   "item.turtlemod.lutonium_leggings": "Lutonium Leggings",
   "item.turtlemod.lutonium_boots": "Lutonium Boots",
 
+  "item.turtlemod.copper_helmet": "Copper Helmet",
+  "item.turtlemod.copper_chestplate": "Copper Chestplate",
+  "item.turtlemod.copper_leggings": "Copper Leggings",
+  "item.turtlemod.copper_boots": "Copper Boots",
+
+  "item.turtlemod.tin_helmet": "Tin Helmet",
+  "item.turtlemod.tin_chestplate": "Tin Chestplate",
+  "item.turtlemod.tin_leggings": "Tin Leggings",
+  "item.turtlemod.tin_boots": "Tin Boots",
+
+  "item.turtlemod.nickel_helmet": "Nickel Helmet",
+  "item.turtlemod.nickel_chestplate": "Nickel Chestplate",
+  "item.turtlemod.nickel_leggings": "Nickel Leggings",
+  "item.turtlemod.nickel_boots": "Nickel Boots",
+
+  "item.turtlemod.lead_helmet": "Lead Helmet",
+  "item.turtlemod.lead_chestplate": "Lead Chestplate",
+  "item.turtlemod.lead_leggings": "Lead Leggings",
+  "item.turtlemod.lead_boots": "Lead Boots",
+
+  "item.turtlemod.silver_helmet": "Silver Helmet",
+  "item.turtlemod.silver_chestplate": "Silver Chestplate",
+  "item.turtlemod.silver_leggings": "Silver Leggings",
+  "item.turtlemod.silver_boots": "Silver Boots",
+
+  "item.turtlemod.titanium_helmet": "Titanium Helmet",
+  "item.turtlemod.titanium_chestplate": "Titanium Chestplate",
+  "item.turtlemod.titanium_leggings": "Titanium Leggings",
+  "item.turtlemod.titanium_boots": "Titanium Boots",
+
 
 
   "item.turtlemod.copper_sword": "Copper Sword",
@@ -90,6 +120,10 @@
   "item.turtlemod.titanium_pickaxe": "Titanium Pickaxe",
   "item.turtlemod.titanium_axe": "Titanium Axe",
   "item.turtlemod.titanium_hoe": "Titanium Hoe",
+
+
+
+
 
 
   "block.turtlemod.lutonium_block": "Block of Lutonium",
