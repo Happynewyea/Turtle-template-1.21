@@ -6,6 +6,7 @@ import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupImpl;
 import net.hoys.turtlemod.TurtleMod;
 import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.item.custom.ChiselItem;
+import net.hoys.turtlemod.item.custom.ModArmorItem;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.*;
@@ -237,16 +238,16 @@ public class ModItems {
 
     public static final Item LEAD_HELMET = registerItem("lead_helmet",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
     public static final Item LEAD_CHESTPLATE = registerItem("lead_chestplate",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
     public static final Item LEAD_LEGGINGS = registerItem("lead_leggings",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
     public static final Item LEAD_BOOTS = registerItem("lead_boots",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
 
     public static final Item SILVER_HELMET = registerItem("silver_helmet",
             new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
@@ -263,16 +264,16 @@ public class ModItems {
 
     public static final Item TITANIUM_HELMET = registerItem("titanium_helmet",
             new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(150))));
     public static final Item TITANIUM_CHESTPLATE = registerItem("titanium_chestplate",
             new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(150))));
     public static final Item TITANIUM_LEGGINGS = registerItem("titanium_leggings",
             new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(150))));
     public static final Item TITANIUM_BOOTS = registerItem("titanium_boots",
             new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(150))));
 
 
     private static Item registerItem(String name, Item item) {

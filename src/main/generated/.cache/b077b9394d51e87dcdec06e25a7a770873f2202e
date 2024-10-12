@@ -1,4 +1,4 @@
-// 1.21	2024-10-09T22:17:23.48601	Turtle Mod/Recipes
+// 1.21	2024-10-12T22:01:54.1434385	Turtle Mod/Recipes
 032f2a40fd4051d31c11e69d827877d971c9cbe1 data\turtlemod\recipe\copper_shovel.json
 7e214b872ec0f00f9a9097183280c26ab038990e data\turtlemod\advancement\recipes\misc\lutonium_from_blasting_lutonium_ore.json
 5dc435441f899590c2abeea8cfa88f6e9501e9d1 data\turtlemod\recipe\titanium_ingot.json
@@ -119,8 +119,8 @@ f9071d14b4ac3c245a946d334fd7a7fa514aef36 data\turtlemod\recipe\lead_ingot_from_s
 8e3d929010ba39e976c9d04d2720be425f091bd1 data\turtlemod\recipe\silver_ingot_from_smelting_deepslate_silver_ore.json
 04183b73a1094b42b0bc62a35a5864daa494c95d data\turtlemod\advancement\recipes\misc\lead_ingot_from_blasting_deepslate_lead_ore.json
 33923427fcd72898597290b1b1613f5925d9a3bb data\turtlemod\recipe\nickel_block.json
-7baa7a25e13657eebaa622f9740b17cfb16d8490 data\turtlemod\recipe\raw_titanium_block.json
 4499303999fb3bf67ee4aa83a09c2b5f0cb0f8c9 data\turtlemod\advancement\recipes\misc\tin_ingot_from_smelting_deepslate_tin_ore.json
+7baa7a25e13657eebaa622f9740b17cfb16d8490 data\turtlemod\recipe\raw_titanium_block.json
 f9487dd397e6c0495f43a65eca2ebe9ebbd9e1c8 data\turtlemod\recipe\titanium_ingot_from_smelting_deepslate_titanium_ore.json
 415e4b5718b8180efaea0996fb2075d41e6ea3c7 data\turtlemod\advancement\recipes\tools\tin_shovel.json
 d702cf5cb4c439c30a8091617e2867277a208f05 data\turtlemod\recipe\silver_ingot_from_smelting_silver_ore.json
