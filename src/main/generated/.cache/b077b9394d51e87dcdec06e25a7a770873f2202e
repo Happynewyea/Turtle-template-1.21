@@ -1,4 +1,4 @@
-// 1.21	2024-10-12T22:01:54.1434385	Turtle Mod/Recipes
+// 1.21	2024-10-14T13:47:12.60464	Turtle Mod/Recipes
 032f2a40fd4051d31c11e69d827877d971c9cbe1 data\turtlemod\recipe\copper_shovel.json
 7e214b872ec0f00f9a9097183280c26ab038990e data\turtlemod\advancement\recipes\misc\lutonium_from_blasting_lutonium_ore.json
 5dc435441f899590c2abeea8cfa88f6e9501e9d1 data\turtlemod\recipe\titanium_ingot.json
@@ -21,6 +21,7 @@ d9c821b7352ba4fcfbabe6a2dab6e1746a2ef9f9 data\turtlemod\recipe\silver_sword.json
 1755b7cddb2b8bc0ad46e91964c7cbb42282d75d data\turtlemod\advancement\recipes\tools\silver_boots.json
 c4f07cb8981e05bce4d53110ec1a2d1a28ab1afb data\turtlemod\advancement\recipes\building_blocks\raw_tin.json
 4418924cd85d2e16ae046085c2ca4a2a1b01f1fb data\turtlemod\recipe\lutonium_from_smelting_raw_lutonium.json
+fc36151a9673fcb482bf372613e157d362c53b07 data\turtlemod\recipe\titanium_bow.json
 f58f02e9263285f1fcb3fa3dd856681e8651913b data\turtlemod\advancement\recipes\misc\lutonium_from_blasting_deepslate_lutonium_ore.json
 8daf16b61011e23a9d6b944469efb890d9839582 data\turtlemod\recipe\raw_lead_block.json
 ad7c85f0c7822c63e298f5bed9c2490580fae5d9 data\turtlemod\recipe\lead_pickaxe.json
@@ -36,6 +37,7 @@ fcee2bfe448245127a4e13098862a1952a83c0ce data\turtlemod\advancement\recipes\deco
 2b469404a04f89314872cec37ca11b4bec17b907 data\turtlemod\advancement\recipes\decorations\titanium_block.json
 8d52674521f353da5210a382c096808b895bd7f7 data\turtlemod\recipe\nickel_pickaxe.json
 4070a4e02a7776de8f495f2ed60e0229902bddf4 data\turtlemod\recipe\tin_ingot_from_blasting_deepslate_tin_ore.json
+f6849242cacb691ac88fc666d687e84bc000d65b data\turtlemod\advancement\recipes\tools\titanium_bow.json
 6de5b05583a13caf64707452da3ac7bb48637e5c data\turtlemod\advancement\recipes\tools\copper_chestplate.json
 2885be360b5408568ea6331c94a315f7c0410ecb data\turtlemod\advancement\recipes\misc\silver_ingot_from_blasting_raw_silver.json
 a62d41b9cf749ad0556b9987f1f98a01e0655e22 data\turtlemod\recipe\silver_ingot_from_smelting_raw_silver.json

@@ -1,0 +1,6 @@
+{
+  "parent": "turtlemod:item/titanium_bow",
+  "textures": {
+    "layer0": "turtlemod:item/titanium_bow_pulling_0"
+  }
+}

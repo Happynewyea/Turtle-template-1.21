@@ -3,6 +3,7 @@ package net.hoys.turtlemod;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.hoys.turtlemod.block.ModBlocks;
+import net.hoys.turtlemod.util.ModModelPredicates;
 import net.minecraft.client.render.RenderLayer;
 
 public class TurtleModClient implements ClientModInitializer {
@@ -21,5 +22,12 @@ public class TurtleModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CABBAGES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINEAPPLES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EGGPLANTS, RenderLayer.getCutout());
+
+
+        ModModelPredicates.registerModelPredicates();
     }
+
+
+
+
 }

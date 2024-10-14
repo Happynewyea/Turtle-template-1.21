@@ -4,10 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "client": [
-    "NetherPortalBlockMixin"
+    "NetherPortalBlockMixin",
+    "AbstractClientPlayerEntityMixin"
   ],
   "server": [
-    "NetherPortalBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

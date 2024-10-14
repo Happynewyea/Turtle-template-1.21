@@ -7,6 +7,7 @@ import net.hoys.turtlemod.TurtleMod;
 import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.item.custom.ChiselItem;
 import net.hoys.turtlemod.item.custom.ModArmorItem;
+import net.hoys.turtlemod.item.custom.TitaniumBowItem;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.*;
@@ -18,7 +19,7 @@ public class ModItems {
     public static final Item LUTONIUM = registerItem("lutonium", new Item(new Item.Settings()));
     public static final Item RAW_LUTONIUM = registerItem("raw_lutonium", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(2)));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(1)));
 
     public static final Item COPPER_COIN = registerItem("copper_coin", new Item(new Item.Settings()));
 
@@ -74,6 +75,12 @@ public class ModItems {
     public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new Item.Settings()));
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new Item.Settings()));
+
+
+    public static final Item TITANIUM_BOW = registerItem("titanium_bow",
+            new TitaniumBowItem(new Item.Settings().maxDamage(500).fireproof()));
+
+
 
 
     public static final Item COPPER_SWORD = registerItem("copper_sword",

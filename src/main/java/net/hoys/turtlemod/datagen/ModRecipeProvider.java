@@ -90,6 +90,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_BOW)
+                .pattern(" TS")
+                .pattern("T S")
+                .pattern(" TS")
+                .input('T', ModItems.TITANIUM_INGOT).input('S', Items.STRING)
+                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .offerTo(exporter);
+
+
         // COPPER ----------------------------------------------------------
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_SWORD)
                 .pattern(" R ")

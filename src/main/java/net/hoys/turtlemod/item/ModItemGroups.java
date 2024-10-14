@@ -181,6 +181,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModItems.TITANIUM_BOW);
 
 
 
