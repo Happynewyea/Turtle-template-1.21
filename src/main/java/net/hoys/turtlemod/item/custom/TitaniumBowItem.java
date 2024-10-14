@@ -2,9 +2,15 @@ package net.hoys.turtlemod.item.custom;
 
 import java.util.List;
 import java.util.function.Predicate;
+
+import net.hoys.turtlemod.TurtleMod;
+import net.minecraft.component.type.ItemEnchantmentsComponent;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.ProjectileEntity;
+import net.minecraft.item.BowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.RangedWeaponItem;
@@ -13,6 +19,7 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
@@ -44,7 +51,8 @@ public class TitaniumBowItem extends RangedWeaponItem {
                             playerEntity.getX(),
                             playerEntity.getY(),
                             playerEntity.getZ(),
-                            SoundEvents.ENTITY_ARROW_SHOOT,
+                            SoundEvents.ENTITY_TNT_PRIMED,
+                            //SoundEvents.ENTITY_ARROW_SHOOT,
                             SoundCategory.PLAYERS,
                             1.0F,
                             1.0F / (world.getRandom().nextFloat() * 0.4F + 1.2F) + f * 0.5F
@@ -57,7 +65,7 @@ public class TitaniumBowItem extends RangedWeaponItem {
 
     @Override
     protected void shoot(LivingEntity shooter, ProjectileEntity projectile, int index, float speed, float divergence, float yaw, @Nullable LivingEntity target) {
-        projectile.setVelocity(shooter, shooter.getPitch(), shooter.getYaw() + yaw, 0.0F, speed, divergence);
+        projectile.setVelocity(shooter, shooter.getPitch(), shooter.getYaw() + yaw, 0.0F, 2 * speed, 0 * divergence);
     }
 
     public static float getPullProgress(int useTicks) {
@@ -91,6 +99,10 @@ public class TitaniumBowItem extends RangedWeaponItem {
             return TypedActionResult.consume(itemStack);
         }
     }
+
+
+    // public ItemEnchantmentsComponent.Builder Lists = getEnchantability(Identifier.of(TurtleMod.MOD_ID, ));
+
 
     @Override
     public Predicate<ItemStack> getProjectiles() {

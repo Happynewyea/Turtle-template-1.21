@@ -10,6 +10,8 @@ import net.hoys.turtlemod.item.custom.ModArmorItem;
 import net.hoys.turtlemod.item.custom.TitaniumBowItem;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.component.type.FoodComponent;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
