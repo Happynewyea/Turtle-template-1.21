@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#minecraft:foot_armor",
+    "#minecraft:leg_armor",
+    "#minecraft:chest_armor",
+    "#minecraft:head_armor",
+    "#minecraft:swords",
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+    "turtlemod:titanium_bow",
+    "turtlemod:golden_bow"
+  ]
+}

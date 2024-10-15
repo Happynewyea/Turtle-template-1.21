@@ -6,6 +6,7 @@ import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupImpl;
 import net.hoys.turtlemod.TurtleMod;
 import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.item.custom.ChiselItem;
+import net.hoys.turtlemod.item.custom.GoldenBowItem;
 import net.hoys.turtlemod.item.custom.ModArmorItem;
 import net.hoys.turtlemod.item.custom.TitaniumBowItem;
 import net.minecraft.component.type.AttributeModifiersComponent;
@@ -80,7 +81,9 @@ public class ModItems {
 
 
     public static final Item TITANIUM_BOW = registerItem("titanium_bow",
-            new TitaniumBowItem(new Item.Settings().maxDamage(500).fireproof()));
+            new TitaniumBowItem(new Item.Settings().maxDamage(1500).fireproof()));
+    public static final Item GOLDEN_BOW = registerItem("golden_bow",
+            new GoldenBowItem(new Item.Settings().maxDamage(50)));
 
 
 

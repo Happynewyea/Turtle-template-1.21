@@ -6,6 +6,7 @@ import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.block.custom.*;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
@@ -29,6 +30,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+
+        // addDrop(Blocks.SHORT_GRASS, ModItems.CABBAGE_SEEDS);
+
 
         addDrop(ModBlocks.LUTONIUM_BLOCK);
         addDrop(ModBlocks.RAW_LUTONIUM_BLOCK);
@@ -61,9 +65,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_TITANIUM_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
 
 
-        BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.CAULIFLOWERS)
+
+
+
+
+        BlockStatePropertyLootCondition.Builder builder1 = BlockStatePropertyLootCondition.builder(ModBlocks.CAULIFLOWERS)
                 .properties(StatePredicate.Builder.create().exactMatch(CauliflowerBlock.AGE, 4));
-        this.addDrop(ModBlocks.CAULIFLOWERS, this.cropDrops(ModBlocks.CAULIFLOWERS, ModItems.CAULIFLOWER, ModItems.CAULIFLOWER_SEEDS, builder));
+        this.addDrop(ModBlocks.CAULIFLOWERS, this.cropDrops(ModBlocks.CAULIFLOWERS, ModItems.CAULIFLOWER, ModItems.CAULIFLOWER_SEEDS, builder1));
 
         BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GARLICS)
                 .properties(StatePredicate.Builder.create().exactMatch(GarlicBlock.AGE, 3));

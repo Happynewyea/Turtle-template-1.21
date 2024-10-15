@@ -1,0 +1,6 @@
+{
+  "parent": "turtlemod:item/golden_bow",
+  "textures": {
+    "layer0": "turtlemod:item/golden_bow_pulling_2"
+  }
+}

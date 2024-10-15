@@ -182,6 +182,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModItems.TITANIUM_BOW);
+                        entries.add(ModItems.GOLDEN_BOW);
 
 
 

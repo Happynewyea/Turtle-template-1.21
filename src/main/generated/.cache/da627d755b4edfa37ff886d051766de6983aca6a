@@ -1,8 +1,29 @@
-// 1.21	2024-10-14T14:41:24.559164	Turtle Mod/Tags for minecraft:item
+// 1.21	2024-10-16T00:19:22.3744595	Turtle Mod/Tags for minecraft:item
+fef6e3961fb5cba6b11d3b62b856445a28a27a1c data\minecraft\tags\item\head_armor.json
 1e00f4882dd0184747e8088aa70ea88bc7104136 data\minecraft\tags\item\shovels.json
-0261257c5469fb283e2b45799b1fb5b92c399362 data\minecraft\tags\item\pickaxes.json
-e79614c0643f4ab367e1efd3761f6c9c0dfb0779 data\minecraft\tags\item\swords.json
+237ae0010a21b6661acf9b44a30d8c6ff981d328 data\minecraft\tags\item\enchantable\chest_armor.json
+8605d3ce0997290e1153d618de9ddc62bc060c4c data\minecraft\tags\item\enchantable\leg_armor.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\item\enchantable\fishing.json
 4020e8de1511df4047e0e1d412e498f8a02330c8 data\turtlemod\tags\item\transformable_items.json
+bc010a77e18f5178abba8eba2a5a9f1d5a5559f4 data\minecraft\tags\item\enchantable\durability.json
+4ab2fe5a762b59023e074a73499c0195dc4fb1c4 data\minecraft\tags\item\enchantable\equippable.json
+4bdf73cf05d4106b5cb9b2edd1ade934e87b52f5 data\minecraft\tags\item\foot_armor.json
+8856c4f9a07f160ff234eff0741cf04eafc0127d data\minecraft\tags\item\leg_armor.json
+5dc007cfc1bb8fa388de801c66408e0899435823 data\minecraft\tags\item\enchantable\mining_loot.json
+e0d4ebc89bef524b9d5fc30a3dcd31c39c829e53 data\minecraft\tags\item\beacon_payment_items.json
+63fd04f577f61675d0d51a0566d2cbcf97cbf85b data\minecraft\tags\item\enchantable\sharp_weapon.json
+6b369f3e01c478f5ecb879b9b5d66757d78e5a8f data\minecraft\tags\item\enchantable\head_armor.json
+7e52d9f1e5b59cae0cac0f1095fd3cbe94be375f data\minecraft\tags\item\enchantable\foot_armor.json
+4ab2fe5a762b59023e074a73499c0195dc4fb1c4 data\minecraft\tags\item\enchantable\armor.json
 865d9966be6600cc693899d2033ee2f484416f53 data\minecraft\tags\item\hoes.json
-4da10105aa672c4387f949a8c6ace5c33693513b data\minecraft\tags\item\trimmable_armor.json
 ac3c349e63e65c7d1ef3532fffe77f8215d293e2 data\minecraft\tags\item\axes.json
+5dc007cfc1bb8fa388de801c66408e0899435823 data\minecraft\tags\item\enchantable\mining.json
+0261257c5469fb283e2b45799b1fb5b92c399362 data\minecraft\tags\item\pickaxes.json
+24660e69f4d9901daf43528e229a363bbca7c2f8 data\minecraft\tags\item\enchantable\bow.json
+e6756cdd6fb03cf772eba210ae3f93335e83dcd6 data\minecraft\tags\item\enchantable\sword.json
+63fd04f577f61675d0d51a0566d2cbcf97cbf85b data\minecraft\tags\item\enchantable\weapon.json
+3d3f9cdcc99ca5ee988c0357b8a72f6ec4cb0e01 data\minecraft\tags\item\chest_armor.json
+e79614c0643f4ab367e1efd3761f6c9c0dfb0779 data\minecraft\tags\item\swords.json
+e6756cdd6fb03cf772eba210ae3f93335e83dcd6 data\minecraft\tags\item\enchantable\fire_aspect.json
+4ab2fe5a762b59023e074a73499c0195dc4fb1c4 data\minecraft\tags\item\trimmable_armor.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\item\enchantable\trident.json
