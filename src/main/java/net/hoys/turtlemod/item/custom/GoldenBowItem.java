@@ -59,11 +59,11 @@ public class GoldenBowItem extends RangedWeaponItem {
 
     @Override
     protected void shoot(LivingEntity shooter, ProjectileEntity projectile, int index, float speed, float divergence, float yaw, @Nullable LivingEntity target) {
-        projectile.setVelocity(shooter, shooter.getPitch(), shooter.getYaw() + yaw, 0.0F, 2 * speed, 0 * divergence);
+        projectile.setVelocity(shooter, shooter.getPitch(), shooter.getYaw() + yaw, 0.0F, 3.0F * speed, 0.0F * divergence);
     }
 
     public static float getPullProgress(int useTicks) {
-        float f = (float)useTicks / 2.0F;
+        float f = (float)useTicks / 20.0F;
         f = (f * f + f * 2.0F) / 3.0F;
         if (f > 1.0F) {
             f = 1.0F;

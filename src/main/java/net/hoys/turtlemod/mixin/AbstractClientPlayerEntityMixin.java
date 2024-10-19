@@ -35,9 +35,23 @@ public abstract class AbstractClientPlayerEntityMixin extends PlayerEntity {
             f *= 1.0f - g * 0.15f;
             info.setReturnValue(MathHelper.lerp(MinecraftClient.getInstance().options.getFovEffectScale().getValue().floatValue(), 1.0f, f));
         }
-        if (this.isUsingItem() && itemStack.isOf(ModItems.GOLDEN_BOW)) {
+        else if (this.isUsingItem() && itemStack.isOf(ModItems.GOLDEN_BOW)) {
             int i = this.getItemUseTime();
-            float g = (float) i / 2.0f;
+            float g = (float) i / 20.0f;
+            g = g > 1.0f ? 1.0f : g * g;
+            f *= 1.0f - g * 0.15f;
+            info.setReturnValue(MathHelper.lerp(MinecraftClient.getInstance().options.getFovEffectScale().getValue().floatValue(), 1.0f, f));
+        }
+        else if (this.isUsingItem() && itemStack.isOf(ModItems.COPPER_BOW)) {
+            int i = this.getItemUseTime();
+            float g = (float) i / 15.0f;
+            g = g > 1.0f ? 1.0f : g * g;
+            f *= 1.0f - g * 0.15f;
+            info.setReturnValue(MathHelper.lerp(MinecraftClient.getInstance().options.getFovEffectScale().getValue().floatValue(), 1.0f, f));
+        }
+        else if (this.isUsingItem() && itemStack.isOf(ModItems.LEAD_BOW)) {
+            int i = this.getItemUseTime();
+            float g = (float) i / 20.0f;
             g = g > 1.0f ? 1.0f : g * g;
             f *= 1.0f - g * 0.15f;
             info.setReturnValue(MathHelper.lerp(MinecraftClient.getInstance().options.getFovEffectScale().getValue().floatValue(), 1.0f, f));

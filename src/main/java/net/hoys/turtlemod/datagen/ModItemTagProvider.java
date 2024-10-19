@@ -154,11 +154,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .addTag(ItemTags.HOES)
 
                 .add(ModItems.TITANIUM_BOW)
-                .add(ModItems.GOLDEN_BOW);
+                .add(ModItems.GOLDEN_BOW)
+                .add(ModItems.COPPER_BOW)
+                .add(ModItems.LEAD_BOW);
 
         getOrCreateTagBuilder(ItemTags.BOW_ENCHANTABLE)
                 .add(ModItems.TITANIUM_BOW)
-                .add(ModItems.GOLDEN_BOW);
+                .add(ModItems.GOLDEN_BOW)
+                .add(ModItems.COPPER_BOW)
+                .add(ModItems.LEAD_BOW);
 
         getOrCreateTagBuilder(ItemTags.EQUIPPABLE_ENCHANTABLE)
                 .addTag(ItemTags.FOOT_ARMOR)
@@ -168,12 +172,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
                 .add(ModItems.TITANIUM_INGOT);
-/*
 
-        getOrCreateTagBuilder(ItemTags.)
 
-        getOrCreateTagBuilder(ItemTags.)
-*/
+        getOrCreateTagBuilder(ItemTags.CROSSBOW_ENCHANTABLE)
+                .add(ModItems.TITANIUM_BOW);
+
+        // getOrCreateTagBuilder(ItemTags.)
+
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .addTag(ItemTags.FOOT_ARMOR)
                 .addTag(ItemTags.LEG_ARMOR)

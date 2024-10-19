@@ -12,10 +12,13 @@ public class ModModelPredicates {
         ModelPredicateProviderRegistry.register(ModItems.CHISEL, Identifier.of(TurtleMod.MOD_ID, "used"),
                 (stack, world, entity, seed) -> stack.get(ModDataComponentTypes.COORDINATES) != null ? 1f : 0f);
 
-        registerCustomBow(ModItems.TITANIUM_BOW);
+        registerTitaniumBow(ModItems.TITANIUM_BOW);
+        registerGoldenBow(ModItems.GOLDEN_BOW);
+        registerCopperBow(ModItems.COPPER_BOW);
+        registerLeadBow(ModItems.LEAD_BOW);
     }
 
-    private static void registerCustomBow(Item item) {
+    private static void registerTitaniumBow(Item item) {
         ModelPredicateProviderRegistry.register(item, Identifier.ofVanilla("pull"), (stack, world, entity, seed) -> {
             if (entity == null) {
                 return 0.0F;
@@ -29,4 +32,50 @@ public class ModModelPredicates {
                 (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
         );
     }
+
+    private static void registerGoldenBow(Item item) {
+        ModelPredicateProviderRegistry.register(item, Identifier.ofVanilla("pull"), (stack, world, entity, seed) -> {
+            if (entity == null) {
+                return 0.0F;
+            } else {
+                return entity.getActiveItem() != stack ? 0.0F : (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / 20.0F;
+            }
+        });
+        ModelPredicateProviderRegistry.register(
+                item,
+                Identifier.ofVanilla("pulling"),
+                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
+        );
+    }
+
+    private static void registerCopperBow(Item item) {
+        ModelPredicateProviderRegistry.register(item, Identifier.ofVanilla("pull"), (stack, world, entity, seed) -> {
+            if (entity == null) {
+                return 0.0F;
+            } else {
+                return entity.getActiveItem() != stack ? 0.0F : (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / 15.0F;
+            }
+        });
+        ModelPredicateProviderRegistry.register(
+                item,
+                Identifier.ofVanilla("pulling"),
+                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
+        );
+    }
+
+    private static void registerLeadBow(Item item) {
+        ModelPredicateProviderRegistry.register(item, Identifier.ofVanilla("pull"), (stack, world, entity, seed) -> {
+            if (entity == null) {
+                return 0.0F;
+            } else {
+                return entity.getActiveItem() != stack ? 0.0F : (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / 20.0F;
+            }
+        });
+        ModelPredicateProviderRegistry.register(
+                item,
+                Identifier.ofVanilla("pulling"),
+                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
+        );
+    }
+
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "copper",
+  "ingredient": {
+    "item": "turtlemod:raw_copper_stick"
+  },
+  "result": {
+    "id": "turtlemod:copper_stick"
+  }
+}

@@ -1,18 +1,9 @@
 package net.hoys.turtlemod.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupImpl;
 import net.hoys.turtlemod.TurtleMod;
 import net.hoys.turtlemod.block.ModBlocks;
-import net.hoys.turtlemod.item.custom.ChiselItem;
-import net.hoys.turtlemod.item.custom.GoldenBowItem;
-import net.hoys.turtlemod.item.custom.ModArmorItem;
-import net.hoys.turtlemod.item.custom.TitaniumBowItem;
-import net.minecraft.component.type.AttributeModifiersComponent;
-import net.minecraft.component.type.FoodComponent;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.Enchantments;
+import net.hoys.turtlemod.item.custom.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -83,7 +74,36 @@ public class ModItems {
     public static final Item TITANIUM_BOW = registerItem("titanium_bow",
             new TitaniumBowItem(new Item.Settings().maxDamage(1500).fireproof()));
     public static final Item GOLDEN_BOW = registerItem("golden_bow",
-            new GoldenBowItem(new Item.Settings().maxDamage(50)));
+            new GoldenBowItem(new Item.Settings().maxDamage(16)));
+    public static final Item COPPER_BOW = registerItem("copper_bow",
+            new CopperBowItem(new Item.Settings().maxDamage(200)));
+    public static final Item LEAD_BOW = registerItem("lead_bow",
+            new CopperBowItem(new Item.Settings().maxDamage(200)));
+
+
+
+
+    public static final Item RAW_COPPER_STICK = registerItem("raw_copper_stick",
+            new Item(new Item.Settings()));
+    public static final Item RAW_SILVER_STICK = registerItem("raw_silver_stick",
+            new Item(new Item.Settings()));
+    public static final Item RAW_GOLDEN_STICK = registerItem("raw_golden_stick",
+            new Item(new Item.Settings()));
+    public static final Item RAW_LEAD_STICK = registerItem("raw_lead_stick",
+            new Item(new Item.Settings()));
+    public static final Item RAW_TITANIUM_STICK = registerItem("raw_titanium_stick",
+            new Item(new Item.Settings()));
+
+    public static final Item COPPER_STICK = registerItem("copper_stick",
+            new Item(new Item.Settings()));
+    public static final Item SILVER_STICK = registerItem("silver_stick",
+            new Item(new Item.Settings()));
+    public static final Item GOLDEN_STICK = registerItem("golden_stick",
+            new Item(new Item.Settings()));
+    public static final Item LEAD_STICK = registerItem("lead_stick",
+            new Item(new Item.Settings()));
+    public static final Item TITANIUM_STICK = registerItem("titanium_stick",
+            new Item(new Item.Settings()));
 
 
 

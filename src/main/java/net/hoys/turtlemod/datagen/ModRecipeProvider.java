@@ -2,18 +2,14 @@ package net.hoys.turtlemod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.hoys.turtlemod.TurtleMod;
 import net.hoys.turtlemod.block.ModBlocks;
 import net.hoys.turtlemod.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -38,6 +34,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> TITANIUM_SMELTABLES = List.of(ModItems.RAW_TITANIUM, ModBlocks.TITANIUM_ORE,
                 ModBlocks.DEEPSLATE_TITANIUM_ORE);
 
+        List<ItemConvertible> COPPER_STICK_SMELTABLES = List.of(ModItems.RAW_COPPER_STICK, ModItems.COPPER_STICK);
+        List<ItemConvertible> LEAD_STICK_SMELTABLES = List.of(ModItems.RAW_LEAD_STICK, ModItems.LEAD_STICK);
+        List<ItemConvertible> SILVER_STICK_SMELTABLES = List.of(ModItems.RAW_SILVER_STICK, ModItems.SILVER_STICK);
+        List<ItemConvertible> GOLDEN_STICK_SMELTABLES = List.of(ModItems.RAW_GOLDEN_STICK, ModItems.GOLDEN_STICK);
+        List<ItemConvertible> TITANIUM_STICK_SMELTABLES = List.of(ModItems.RAW_TITANIUM_STICK, ModItems.TITANIUM_STICK);
+
 
 
 
@@ -58,6 +60,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSmelting(exporter, TITANIUM_SMELTABLES, RecipeCategory.MISC, ModItems.TITANIUM_INGOT, 0.25f, 200, "titanium");
         offerBlasting(exporter, TITANIUM_SMELTABLES, RecipeCategory.MISC, ModItems.TITANIUM_INGOT, 0.25f, 100, "titanium");
+
+
+
+        offerSmelting(exporter, COPPER_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.COPPER_STICK, 0.25f, 200, "copper");
+        offerBlasting(exporter, COPPER_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.COPPER_STICK, 0.25f, 100, "copper");
+
+        offerSmelting(exporter, LEAD_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.LEAD_STICK, 0.25f, 200, "lead");
+        offerBlasting(exporter, LEAD_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.LEAD_STICK, 0.25f, 100, "lead");
+
+        offerSmelting(exporter, SILVER_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.SILVER_STICK, 0.25f, 200, "silver");
+        offerBlasting(exporter, SILVER_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.SILVER_STICK, 0.25f, 100, "silver");
+
+        offerSmelting(exporter, GOLDEN_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.GOLDEN_STICK, 0.25f, 200, "gold");
+        offerBlasting(exporter, GOLDEN_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.GOLDEN_STICK, 0.25f, 100, "gold");
+
+        offerSmelting(exporter, TITANIUM_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.TITANIUM_STICK, 0.25f, 200, "titanium");
+        offerBlasting(exporter, TITANIUM_STICK_SMELTABLES, RecipeCategory.MISC, ModItems.TITANIUM_STICK, 0.25f, 100, "titanium");
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LUTONIUM, RecipeCategory.DECORATIONS, ModBlocks.LUTONIUM_BLOCK);
@@ -91,14 +110,85 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_BOW)
-                .pattern(" TS")
-                .pattern("T S")
-                .pattern(" TS")
-                .input('T', ModItems.TITANIUM_INGOT).input('S', Items.STRING)
-                .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                .pattern(" SC")
+                .pattern("T C")
+                .pattern(" SC")
+                .input('T', ModItems.TITANIUM_STICK).input('C', Items.CHAIN).input('S', ModItems.SILVER_STICK)
+                .criterion(hasItem(ModItems.TITANIUM_STICK), conditionsFromItem(ModItems.TITANIUM_STICK))
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+                .criterion(hasItem(ModItems.SILVER_STICK), conditionsFromItem(ModItems.SILVER_STICK))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GOLDEN_BOW)
+                .pattern(" GS")
+                .pattern("G S")
+                .pattern(" GS")
+                .input('G', Items.GOLD_INGOT).input('S', Items.STRING)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_BOW)
+                .pattern(" CS")
+                .pattern("C S")
+                .pattern(" CS")
+                .input('C', Items.COPPER_INGOT).input('S', Items.STRING)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_BOW)
+                .pattern(" LC")
+                .pattern("L C")
+                .pattern(" LC")
+                .input('L', ModItems.RAW_LEAD).input('C', Items.CHAIN)
+                .criterion(hasItem(ModItems.RAW_LEAD), conditionsFromItem(ModItems.RAW_LEAD))
+                .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
+                .offerTo(exporter);
 
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_COPPER_STICK)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('R', Items.RAW_COPPER).input('S', Items.STICK)
+                .criterion(hasItem(Items.RAW_COPPER), conditionsFromItem(Items.RAW_COPPER))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_LEAD_STICK)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_LEAD).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RAW_LEAD), conditionsFromItem(ModItems.RAW_LEAD))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_SILVER_STICK)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_SILVER).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RAW_SILVER), conditionsFromItem(ModItems.RAW_SILVER))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_GOLDEN_STICK)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('R', Items.RAW_GOLD).input('S', Items.STICK)
+                .criterion(hasItem(Items.RAW_GOLD), conditionsFromItem(Items.RAW_GOLD))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_TITANIUM_STICK)
+                .pattern("RRR")
+                .pattern("RSR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_TITANIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RAW_TITANIUM), conditionsFromItem(ModItems.RAW_TITANIUM))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
 
         // COPPER ----------------------------------------------------------
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_SWORD)
@@ -143,7 +233,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_HELMET)
                 .pattern("RRR")
-                .pattern("   ")
+                .pattern("R R")
                 .pattern("   ")
                 .input('R', Items.COPPER_INGOT)
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
@@ -212,7 +302,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_HELMET)
                 .pattern("RRR")
-                .pattern("   ")
+                .pattern("R R")
                 .pattern("   ")
                 .input('R', ModItems.TIN_INGOT)
                 .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
@@ -283,7 +373,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.NICKEL_HELMET)
                 .pattern("RRR")
-                .pattern("   ")
+                .pattern("R R")
                 .pattern("   ")
                 .input('R', ModItems.NICKEL_INGOT)
                 .criterion(hasItem(ModItems.NICKEL_INGOT), conditionsFromItem(ModItems.NICKEL_INGOT))
@@ -353,7 +443,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_HELMET)
                 .pattern("RRR")
-                .pattern("   ")
+                .pattern("R R")
                 .pattern("   ")
                 .input('R', ModItems.LEAD_INGOT)
                 .criterion(hasItem(ModItems.LEAD_INGOT), conditionsFromItem(ModItems.LEAD_INGOT))
@@ -423,7 +513,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SILVER_HELMET)
                 .pattern("RRR")
-                .pattern("   ")
+                .pattern("R R")
                 .pattern("   ")
                 .input('R', ModItems.SILVER_INGOT)
                 .criterion(hasItem(ModItems.SILVER_INGOT), conditionsFromItem(ModItems.SILVER_INGOT))
@@ -493,7 +583,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TITANIUM_HELMET)
                 .pattern("RRR")
-                .pattern("   ")
+                .pattern("R R")
                 .pattern("   ")
                 .input('R', ModItems.TITANIUM_INGOT)
                 .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))

@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
     "S": {
-      "item": "minecraft:string"
+      "item": "turtlemod:silver_stick"
     },
     "T": {
-      "item": "turtlemod:titanium_ingot"
+      "item": "turtlemod:titanium_stick"
     }
   },
   "pattern": [
-    " TS",
-    "T S",
-    " TS"
+    " SC",
+    "T C",
+    " SC"
   ],
   "result": {
     "count": 1,

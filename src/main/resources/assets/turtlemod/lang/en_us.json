@@ -124,7 +124,20 @@
 
   "item.turtlemod.titanium_bow": "Titanium Bow",
   "item.turtlemod.golden_bow": "Golden Bow",
+  "item.turtlemod.copper_bow": "Copper Bow",
+  "item.turtlemod.lead_bow": "Lead Bow",
 
+  "item.turtlemod.raw_copper_stick": "Raw Copper Stick",
+  "item.turtlemod.raw_silver_stick": "Raw Silver Stick",
+  "item.turtlemod.raw_golden_stick": "Raw Golden Stick",
+  "item.turtlemod.raw_lead_stick": "Raw Lead Stick",
+  "item.turtlemod.raw_titanium_stick": "Raw Titanium Stick",
+
+  "item.turtlemod.copper_stick": "Copper Stick",
+  "item.turtlemod.silver_stick": "Silver Stick",
+  "item.turtlemod.golden_stick": "Golden Stick",
+  "item.turtlemod.lead_stick": "Lead Stick",
+  "item.turtlemod.titanium_stick": "Titanium Stick",
 
 
 

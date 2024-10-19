@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "titanium",
+  "ingredient": {
+    "item": "turtlemod:titanium_stick"
+  },
+  "result": {
+    "id": "turtlemod:titanium_stick"
+  }
+}

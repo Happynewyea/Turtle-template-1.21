@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "L": {
+      "item": "turtlemod:raw_lead"
+    }
+  },
+  "pattern": [
+    " LC",
+    "L C",
+    " LC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "turtlemod:lead_bow"
+  }
+}

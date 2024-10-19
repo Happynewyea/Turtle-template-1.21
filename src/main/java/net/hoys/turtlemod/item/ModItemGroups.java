@@ -183,6 +183,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModItems.TITANIUM_BOW);
                         entries.add(ModItems.GOLDEN_BOW);
+                        entries.add(ModItems.COPPER_BOW);
+                        entries.add(ModItems.LEAD_BOW);
+
+                        entries.add(ModItems.RAW_COPPER_STICK);
+                        entries.add(ModItems.RAW_SILVER_STICK);
+                        entries.add(ModItems.RAW_GOLDEN_STICK);
+                        entries.add(ModItems.RAW_LEAD_STICK);
+                        entries.add(ModItems.RAW_TITANIUM_STICK);
+
+                        entries.add(ModItems.COPPER_STICK);
+                        entries.add(ModItems.SILVER_STICK);
+                        entries.add(ModItems.GOLDEN_STICK);
+                        entries.add(ModItems.LEAD_STICK);
+                        entries.add(ModItems.TITANIUM_STICK);
 
 
 

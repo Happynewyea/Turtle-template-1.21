@@ -1,6 +1,8 @@
 {
   "values": [
     "turtlemod:titanium_bow",
-    "turtlemod:golden_bow"
+    "turtlemod:golden_bow",
+    "turtlemod:copper_bow",
+    "turtlemod:lead_bow"
   ]
 }

@@ -1,11 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_string": {
+    "has_chain": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:string"
+            "items": "minecraft:chain"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_silver_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "turtlemod:silver_stick"
           }
         ]
       },
@@ -17,11 +27,11 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_titanium_ingot": {
+    "has_titanium_stick": {
       "conditions": {
         "items": [
           {
-            "items": "turtlemod:titanium_ingot"
+            "items": "turtlemod:titanium_stick"
           }
         ]
       },
@@ -31,8 +41,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_titanium_ingot",
-      "has_string"
+      "has_titanium_stick",
+      "has_chain",
+      "has_silver_stick"
     ]
   ],
   "rewards": {

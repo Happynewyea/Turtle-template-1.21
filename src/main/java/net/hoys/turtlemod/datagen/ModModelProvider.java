@@ -84,6 +84,17 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINEAPPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EGGPLANT, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.RAW_COPPER_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_SILVER_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILVER_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_GOLDEN_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLDEN_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_LEAD_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAD_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_TITANIUM_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TITANIUM_STICK, Models.GENERATED);
+
 
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.COPPER_COIN, Models.GENERATED);
@@ -98,6 +109,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SILVER_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TITANIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.TITANIUM_INGOT, Models.GENERATED);
+
+
+
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUTONIUM_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUTONIUM_CHESTPLATE));
