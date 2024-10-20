@@ -1,0 +1,6 @@
+{
+  "parent": "turtlemod:item/titanium_fishing_rod",
+  "textures": {
+    "layer0": "turtlemod:item/titanium_fishing_rod_cast"
+  }
+}

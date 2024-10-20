@@ -138,7 +138,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .addTag(ItemTags.PICKAXES)
                 .addTag(ItemTags.HOES);
 
-        getOrCreateTagBuilder(ItemTags.FISHING_ENCHANTABLE);
+        getOrCreateTagBuilder(ItemTags.FISHING_ENCHANTABLE)
+                .add(ModItems.TITANIUM_FISHING_ROD);
 
         getOrCreateTagBuilder(ItemTags.TRIDENT_ENCHANTABLE);
 

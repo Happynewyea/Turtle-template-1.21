@@ -1,4 +1,4 @@
-// 1.21	2024-10-19T16:08:32.5721122	Turtle Mod/Model Definitions
+// 1.21	2024-10-20T20:13:05.0448536	Turtle Mod/Model Definitions
 42a6d2e3a0315b2e964345a623b12bc694e6bf82 assets\turtlemod\models\item\silver_helmet_copper_trim.json
 fe67d2e2886ed59c4d2e9931cec49ee9531fa3ab assets\turtlemod\models\item\titanium_helmet_amethyst_trim.json
 417ad25d26db387453cd33ed84a4bfa5ef7848c4 assets\turtlemod\models\item\lead_helmet_gold_trim.json
@@ -155,8 +155,8 @@ c58b2bc8935cc24d6599a9effcca53e5d1240fab assets\turtlemod\blockstates\raw_titani
 2648373af34c4c2e45ba460e2031c2108f7b15b1 assets\turtlemod\models\item\titanium_boots_netherite_trim.json
 a4805bf14ec425d506af8d65a1aa6a873daad7f4 assets\turtlemod\models\item\lead_leggings_amethyst_trim.json
 b7cce00373199108eb7f234e627e9ced217740db assets\turtlemod\models\item\raw_silver_stick.json
-52a2be40ba3e8e3e594cfd2ca63d24d6aeb7cb70 assets\turtlemod\models\item\lutonium.json
 01f48e8937894fa114969c2b78ee49ddb80c2f67 assets\turtlemod\models\item\nickel_chestplate_gold_trim.json
+52a2be40ba3e8e3e594cfd2ca63d24d6aeb7cb70 assets\turtlemod\models\item\lutonium.json
 e499b2a00afd027b80ea8c6f86026b06aa90b305 assets\turtlemod\models\block\radishes_stage3.json
 1e615ef9ba172aa4fe202502837408da286a707c assets\turtlemod\models\item\titanium_leggings_quartz_trim.json
 05ddd4ec1525c3ecc47c3c978ad2f4e14113773d assets\turtlemod\models\item\copper_helmet_lapis_trim.json
@@ -283,8 +283,8 @@ a7fb44182912baf4f6162ef5f69e45f754cca9d8 assets\turtlemod\models\item\lutonium_b
 d4922ede7f2037f85130d14e2eb4d8c17841d867 assets\turtlemod\models\item\nickel_ore.json
 2df2e07af06c812ba5cd30ac340f118892f92860 assets\turtlemod\models\block\radishes_stage2.json
 5145f2d280eb2b0b87971ad75145ab70733bfe2f assets\turtlemod\models\item\nickel_chestplate_iron_trim.json
-74c4a7acd38bba7f0a83fa97cb43ac8fa9286680 assets\turtlemod\models\item\raw_lead_block.json
 6d9b5a287b64f942b68c64eeb2cdfabc8a3d1e24 assets\turtlemod\models\item\nickel_helmet.json
+74c4a7acd38bba7f0a83fa97cb43ac8fa9286680 assets\turtlemod\models\item\raw_lead_block.json
 d18ae9064a1d00f5cccd4f75fbf7fb0a2d267659 assets\turtlemod\models\item\copper_chestplate_diamond_trim.json
 bef00a838df68427858ce4dc5d23cd9fd606cc4d assets\turtlemod\models\item\copper_leggings_iron_trim.json
 86c528cf7a26d3c344d4fd6cc421abb87f0def34 assets\turtlemod\models\block\eggplants_stage3.json

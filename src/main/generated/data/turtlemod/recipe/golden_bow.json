@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "G": {
-      "item": "minecraft:gold_ingot"
+      "item": "turtlemod:golden_stick"
     },
     "S": {
       "item": "minecraft:string"

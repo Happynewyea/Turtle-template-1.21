@@ -3,14 +3,9 @@ package net.hoys.turtlemod.item.custom;
 import java.util.List;
 import java.util.function.Predicate;
 
-import net.hoys.turtlemod.TurtleMod;
-import net.minecraft.component.type.ItemEnchantmentsComponent;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.ProjectileEntity;
-import net.minecraft.item.BowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.RangedWeaponItem;
@@ -19,7 +14,6 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
@@ -101,7 +95,7 @@ public class TitaniumBowItem extends RangedWeaponItem {
     }
 
 
-    // public ItemEnchantmentsComponent.Builder Lists = getEnchantability(Identifier.of(TurtleMod.MOD_ID, ));
+
 
 
     @Override
@@ -112,5 +106,10 @@ public class TitaniumBowItem extends RangedWeaponItem {
     @Override
     public int getRange() {
         return 15;
+    }
+
+    @Override
+    public int getEnchantability() {
+        return 100;
     }
 }

@@ -1,9 +1,9 @@
-// 1.21	2024-10-19T16:08:32.5766314	Turtle Mod/Tags for minecraft:item
+// 1.21	2024-10-20T20:13:05.0493743	Turtle Mod/Tags for minecraft:item
 fef6e3961fb5cba6b11d3b62b856445a28a27a1c data\minecraft\tags\item\head_armor.json
 1e00f4882dd0184747e8088aa70ea88bc7104136 data\minecraft\tags\item\shovels.json
 237ae0010a21b6661acf9b44a30d8c6ff981d328 data\minecraft\tags\item\enchantable\chest_armor.json
 8605d3ce0997290e1153d618de9ddc62bc060c4c data\minecraft\tags\item\enchantable\leg_armor.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\item\enchantable\fishing.json
+8fcd33eecf98ba2c2ae1e2dae28958f1e50ebb57 data\minecraft\tags\item\enchantable\fishing.json
 4020e8de1511df4047e0e1d412e498f8a02330c8 data\turtlemod\tags\item\transformable_items.json
 5919737c8243987e23c1c499f1db64c131d8de8e data\minecraft\tags\item\enchantable\durability.json
 4ab2fe5a762b59023e074a73499c0195dc4fb1c4 data\minecraft\tags\item\enchantable\equippable.json

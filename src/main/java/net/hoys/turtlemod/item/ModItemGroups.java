@@ -198,7 +198,7 @@ public class ModItemGroups {
                         entries.add(ModItems.LEAD_STICK);
                         entries.add(ModItems.TITANIUM_STICK);
 
-
+                        entries.add(ModItems.TITANIUM_FISHING_ROD);
 
 
                     })).build());

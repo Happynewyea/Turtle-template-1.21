@@ -11,11 +11,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_raw_lead": {
+    "has_lead_stick": {
       "conditions": {
         "items": [
           {
-            "items": "turtlemod:raw_lead"
+            "items": "turtlemod:lead_stick"
           }
         ]
       },
@@ -31,7 +31,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_lead",
+      "has_lead_stick",
       "has_chain"
     ]
   ],

@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "minecraft:copper_ingot"
+      "item": "turtlemod:copper_stick"
     },
     "S": {
       "item": "minecraft:string"

@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
     "R": {
       "item": "turtlemod:raw_titanium"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "pattern": [
     "RRR",
-    "RSR",
+    "RBR",
     "RRR"
   ],
   "result": {

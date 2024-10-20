@@ -81,6 +81,9 @@ public class ModItems {
             new CopperBowItem(new Item.Settings().maxDamage(200)));
 
 
+    public static final Item TITANIUM_FISHING_ROD = registerItem("titanium_fishing_rod",
+            new TitaniumFishingRodItem(new Item.Settings().maxDamage(300)));
+
 
 
     public static final Item RAW_COPPER_STICK = registerItem("raw_copper_stick",

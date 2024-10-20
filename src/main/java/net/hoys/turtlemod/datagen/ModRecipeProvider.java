@@ -34,11 +34,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> TITANIUM_SMELTABLES = List.of(ModItems.RAW_TITANIUM, ModBlocks.TITANIUM_ORE,
                 ModBlocks.DEEPSLATE_TITANIUM_ORE);
 
-        List<ItemConvertible> COPPER_STICK_SMELTABLES = List.of(ModItems.RAW_COPPER_STICK, ModItems.COPPER_STICK);
-        List<ItemConvertible> LEAD_STICK_SMELTABLES = List.of(ModItems.RAW_LEAD_STICK, ModItems.LEAD_STICK);
-        List<ItemConvertible> SILVER_STICK_SMELTABLES = List.of(ModItems.RAW_SILVER_STICK, ModItems.SILVER_STICK);
-        List<ItemConvertible> GOLDEN_STICK_SMELTABLES = List.of(ModItems.RAW_GOLDEN_STICK, ModItems.GOLDEN_STICK);
-        List<ItemConvertible> TITANIUM_STICK_SMELTABLES = List.of(ModItems.RAW_TITANIUM_STICK, ModItems.TITANIUM_STICK);
+        List<ItemConvertible> COPPER_STICK_SMELTABLES = List.of(ModItems.RAW_COPPER_STICK);
+        List<ItemConvertible> LEAD_STICK_SMELTABLES = List.of(ModItems.RAW_LEAD_STICK);
+        List<ItemConvertible> SILVER_STICK_SMELTABLES = List.of(ModItems.RAW_SILVER_STICK);
+        List<ItemConvertible> GOLDEN_STICK_SMELTABLES = List.of(ModItems.RAW_GOLDEN_STICK);
+        List<ItemConvertible> TITANIUM_STICK_SMELTABLES = List.of(ModItems.RAW_TITANIUM_STICK);
 
 
 
@@ -122,24 +122,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" GS")
                 .pattern("G S")
                 .pattern(" GS")
-                .input('G', Items.GOLD_INGOT).input('S', Items.STRING)
-                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .input('G', ModItems.GOLDEN_STICK).input('S', Items.STRING)
+                .criterion(hasItem(ModItems.GOLDEN_STICK), conditionsFromItem(ModItems.GOLDEN_STICK))
                 .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.COPPER_BOW)
                 .pattern(" CS")
                 .pattern("C S")
                 .pattern(" CS")
-                .input('C', Items.COPPER_INGOT).input('S', Items.STRING)
-                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .input('C', ModItems.COPPER_STICK).input('S', Items.STRING)
+                .criterion(hasItem(ModItems.COPPER_STICK), conditionsFromItem(ModItems.COPPER_STICK))
                 .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LEAD_BOW)
                 .pattern(" LC")
                 .pattern("L C")
                 .pattern(" LC")
-                .input('L', ModItems.RAW_LEAD).input('C', Items.CHAIN)
-                .criterion(hasItem(ModItems.RAW_LEAD), conditionsFromItem(ModItems.RAW_LEAD))
+                .input('L', ModItems.LEAD_STICK).input('C', Items.CHAIN)
+                .criterion(hasItem(ModItems.LEAD_STICK), conditionsFromItem(ModItems.LEAD_STICK))
                 .criterion(hasItem(Items.CHAIN), conditionsFromItem(Items.CHAIN))
                 .offerTo(exporter);
 
@@ -183,11 +183,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_TITANIUM_STICK)
                 .pattern("RRR")
-                .pattern("RSR")
+                .pattern("RBR")
                 .pattern("RRR")
-                .input('R', ModItems.RAW_TITANIUM).input('S', Items.STICK)
+                .input('R', ModItems.RAW_TITANIUM).input('B', Items.BLAZE_ROD)
                 .criterion(hasItem(ModItems.RAW_TITANIUM), conditionsFromItem(ModItems.RAW_TITANIUM))
-                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.BLAZE_ROD), conditionsFromItem(Items.BLAZE_ROD))
                 .offerTo(exporter);
 
         // COPPER ----------------------------------------------------------
